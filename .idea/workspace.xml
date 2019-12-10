@@ -1,33 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="WebDev:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="baafb61b-c822-451a-9d61-cc7dff7df0c3" name="Default Changelist" comment="">
+=======
     <list default="true" id="08eaf662-57ec-4d04-a6da-8e4d418401cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/images/Add.png" afterDir="false" />
+>>>>>>> origin/AbelKinkela
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/about.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/about.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/about.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/about.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/styles/styles.css" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
+>>>>>>> origin/AbelKinkela
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Abel Makanzu Kinkela &lt;akinkela16@alustudent.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+=======
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -43,18 +70,45 @@
     </option>
   </component>
   <component name="ProjectId" id="1Uea8K9r0IvhBJEiRwdGrk83wKW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+>>>>>>> origin/AbelKinkela
   </component>
+  <component name="ProjectId" id="1UmSxuOg2fh8G6m8ruFjtZEaHVO" />
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+=======
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/views/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/views/images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.29" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.29" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -140,10 +194,16 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
             </expand>
             <select />
           </treeState>
         </serviceView>
+>>>>>>> origin/AbelKinkela
       </list>
     </option>
   </component>
@@ -152,18 +212,63 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="08eaf662-57ec-4d04-a6da-8e4d418401cf" name="Default Changelist" comment="" />
-      <created>1575719353335</created>
+      <changelist id="baafb61b-c822-451a-9d61-cc7dff7df0c3" name="Default Changelist" comment="" />
+      <created>1575960526180</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1575960526180</updated>
+      <workItem from="1575960531609" duration="54000" />
+      <workItem from="1575960625801" duration="156000" />
+      <workItem from="1575961557456" duration="255000" />
+      <workItem from="1575962495249" duration="298000" />
+=======
       <updated>1575719353335</updated>
       <workItem from="1575719354897" duration="4919000" />
-      <workItem from="1575725969722" duration="502000" />
+      <workItem from="1575725969722" duration="1306000" />
+      <workItem from="1575805442692" duration="9347000" />
+      <workItem from="1575903798016" duration="7605000" />
+>>>>>>> origin/AbelKinkela
     </task>
+    <task id="LOCAL-00001" summary="Commit 1 - Added code in the Dashboard.java for the logic of my Dashboard page.">
+      <created>1575835869049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575835869049</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit 2 - The landing page now have a simple structure of the Dashboard.">
+      <created>1575838066823</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575838066823</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+<<<<<<< HEAD
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+=======
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Commit 1 - Added code in the Dashboard.java for the logic of my Dashboard page." />
+    <MESSAGE value="Commit 2 - The landing page now have a simple structure of the Dashboard." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 2 - The landing page now have a simple structure of the Dashboard." />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575719522355">
@@ -178,54 +283,58 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="299" y="62" width="763" height="611" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.735@0.0.1366.735" timestamp="1575719411795" />
-    <state width="906" height="177" key="GridCell.Tab.0.bottom" timestamp="1575725960129">
+    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2" timestamp="1575918712099">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.0.bottom/0.0.1366.735@0.0.1366.735" timestamp="1575725960129" />
-    <state width="906" height="177" key="GridCell.Tab.0.center" timestamp="1575725960128">
+    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2/0.0.1366.735@0.0.1366.735" timestamp="1575918712099" />
+    <state width="899" height="177" key="GridCell.Tab.0.bottom" timestamp="1575918330892">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.0.center/0.0.1366.735@0.0.1366.735" timestamp="1575725960128" />
-    <state width="906" height="177" key="GridCell.Tab.0.left" timestamp="1575725960128">
+    <state width="899" height="177" key="GridCell.Tab.0.bottom/0.0.1366.735@0.0.1366.735" timestamp="1575918330892" />
+    <state width="899" height="177" key="GridCell.Tab.0.center" timestamp="1575918330891">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.0.left/0.0.1366.735@0.0.1366.735" timestamp="1575725960128" />
-    <state width="906" height="177" key="GridCell.Tab.0.right" timestamp="1575725960129">
+    <state width="899" height="177" key="GridCell.Tab.0.center/0.0.1366.735@0.0.1366.735" timestamp="1575918330891" />
+    <state width="899" height="177" key="GridCell.Tab.0.left" timestamp="1575918330891">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.0.right/0.0.1366.735@0.0.1366.735" timestamp="1575725960129" />
-    <state width="906" height="177" key="GridCell.Tab.1.bottom" timestamp="1575725960130">
+    <state width="899" height="177" key="GridCell.Tab.0.left/0.0.1366.735@0.0.1366.735" timestamp="1575918330891" />
+    <state width="899" height="177" key="GridCell.Tab.0.right" timestamp="1575918330891">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.1.bottom/0.0.1366.735@0.0.1366.735" timestamp="1575725960130" />
-    <state width="906" height="177" key="GridCell.Tab.1.center" timestamp="1575725960129">
+    <state width="899" height="177" key="GridCell.Tab.0.right/0.0.1366.735@0.0.1366.735" timestamp="1575918330891" />
+    <state width="899" height="177" key="GridCell.Tab.1.bottom" timestamp="1575918330664">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.1.center/0.0.1366.735@0.0.1366.735" timestamp="1575725960129" />
-    <state width="906" height="177" key="GridCell.Tab.1.left" timestamp="1575725960129">
+    <state width="899" height="177" key="GridCell.Tab.1.bottom/0.0.1366.735@0.0.1366.735" timestamp="1575918330664" />
+    <state width="899" height="177" key="GridCell.Tab.1.center" timestamp="1575918330664">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.1.left/0.0.1366.735@0.0.1366.735" timestamp="1575725960129" />
-    <state width="906" height="177" key="GridCell.Tab.1.right" timestamp="1575725960130">
+    <state width="899" height="177" key="GridCell.Tab.1.center/0.0.1366.735@0.0.1366.735" timestamp="1575918330664" />
+    <state width="899" height="177" key="GridCell.Tab.1.left" timestamp="1575918330663">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.1.right/0.0.1366.735@0.0.1366.735" timestamp="1575725960130" />
-    <state width="906" height="177" key="GridCell.Tab.2.bottom" timestamp="1575725960131">
+    <state width="899" height="177" key="GridCell.Tab.1.left/0.0.1366.735@0.0.1366.735" timestamp="1575918330663" />
+    <state width="899" height="177" key="GridCell.Tab.1.right" timestamp="1575918330664">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.2.bottom/0.0.1366.735@0.0.1366.735" timestamp="1575725960131" />
-    <state width="906" height="177" key="GridCell.Tab.2.center" timestamp="1575725960130">
+    <state width="899" height="177" key="GridCell.Tab.1.right/0.0.1366.735@0.0.1366.735" timestamp="1575918330664" />
+    <state width="899" height="177" key="GridCell.Tab.2.bottom" timestamp="1575918330665">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.2.center/0.0.1366.735@0.0.1366.735" timestamp="1575725960130" />
-    <state width="906" height="177" key="GridCell.Tab.2.left" timestamp="1575725960130">
+    <state width="899" height="177" key="GridCell.Tab.2.bottom/0.0.1366.735@0.0.1366.735" timestamp="1575918330665" />
+    <state width="899" height="177" key="GridCell.Tab.2.center" timestamp="1575918330665">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.2.left/0.0.1366.735@0.0.1366.735" timestamp="1575725960130" />
-    <state width="906" height="177" key="GridCell.Tab.2.right" timestamp="1575725960130">
+    <state width="899" height="177" key="GridCell.Tab.2.center/0.0.1366.735@0.0.1366.735" timestamp="1575918330665" />
+    <state width="899" height="177" key="GridCell.Tab.2.left" timestamp="1575918330664">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state width="906" height="177" key="GridCell.Tab.2.right/0.0.1366.735@0.0.1366.735" timestamp="1575725960130" />
+    <state width="899" height="177" key="GridCell.Tab.2.left/0.0.1366.735@0.0.1366.735" timestamp="1575918330664" />
+    <state width="899" height="177" key="GridCell.Tab.2.right" timestamp="1575918330665">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state width="899" height="177" key="GridCell.Tab.2.right/0.0.1366.735@0.0.1366.735" timestamp="1575918330665" />
     <state x="216" y="27" width="930" height="681" key="Maven.ArtifactSearchDialog" timestamp="1575720238333">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
@@ -234,9 +343,18 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="179" y="4" key="SettingsEditor/0.0.1366.735@0.0.1366.735" timestamp="1575720782677" />
+    <state x="273" y="102" width="806" height="525" key="Vcs.Push.Dialog.v2" timestamp="1575838098318">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state x="273" y="102" width="806" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.735@0.0.1366.735" timestamp="1575838098318" />
+    <state x="362" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1575903805085">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state x="362" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.735@0.0.1366.735" timestamp="1575903805085" />
     <state x="346" y="56" key="search.everywhere.popup" timestamp="1575720932489">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="346" y="56" key="search.everywhere.popup/0.0.1366.735@0.0.1366.735" timestamp="1575720932489" />
+>>>>>>> origin/AbelKinkela
   </component>
 </project>
