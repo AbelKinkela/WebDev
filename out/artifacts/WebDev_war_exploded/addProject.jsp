@@ -70,20 +70,22 @@
 
         <!-- Default input -->
         <div class="form-group">
-            <label for="inputAddress2">Description</label>
-            <textarea type="text" class="form-control" id="inputAddress2" rows="3"
+            <label for="description">Description</label>
+            <textarea type="text" class="form-control" id="description" rows="3"
                       placeholder="Description...."></textarea>
         </div>
 
 
-        <div class="form-group">
-            <label for="Milestone">Milestone</label>
-            <input type="text" class="form-control" class="Milestone" id="milestone" placeholder="Milestone">
-        </div>
+
 
 
         <!-- Default input -->
         <div class="form-group text-right">
+            <div class="form-group text-left mile">
+                <label for="Milestone">Milestone</label>
+                <input type="text" class="form-control" class="Milestone" id="milestone" placeholder="Milestone" style="margin-bottom: 10px">
+            </div>
+
             <label for="add-more">Add new Milestone</label>
             <button class="btn btn-primary" id="add-more">
                 <i class="glyphicon glyphicon-plus"></i>
