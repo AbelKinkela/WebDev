@@ -1,65 +1,130 @@
 package alu.webdev.app.entities;
-import java.io.Serializable;
 
-public class Project implements Serializable{
-    String name;
-    int completionPercentage;
-    int days;
-    int totalDuration;
+import java.util.ArrayList;
+import java.util.Date;
 
-    public Project() {
-        this.name = "";
-        this.completionPercentage = 0;
-        this.days = 0;
-        this.totalDuration = 0;
+public class Project {
+
+    private String projectName;
+    private Status projectStatus;
+    private Date startDate;
+    private Date endDate;
+    private String description;
+    private ArrayList<Milestone> milestones;
+
+    /**
+     * @param projectName
+     */
+    public Project(String projectName, Status projectStatus, Date startDate, Date endDate, String description, ArrayList<Milestone> milestones) {
+        this.projectName = projectName;
+        this.projectStatus = projectStatus;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.description = description;
+        this.milestones = milestones;
     }
 
-    public Project(String name, int completionPercentage, int days, int totalDuration) {
-        this.name = name;
-        this.completionPercentage = completionPercentage;
-        this.days = days;
-        this.totalDuration = totalDuration;
+    /**
+     *
+     */
+    public Project(){
+
     }
 
-    public String getName() {
-        return name;
+    /**
+     * @return
+     */
+    public String getProjectName() {
+        return projectName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    /**
+     * @param projectName
+     */
+    public void setProjectName(String projectName) {
+        this.projectName = projectName;
     }
 
-    public int getCompletionPercentage() {
-        return completionPercentage;
+
+    /**
+     * @return
+     */
+    public Status getProjectStatus() {
+        return projectStatus;
     }
 
-    public void setCompletionPercentage(int completionPercentage) {
-        this.completionPercentage = completionPercentage;
+    /**
+     * @param projectStatus
+     */
+    public void setProjectStatus(Status projectStatus) {
+        this.projectStatus = projectStatus;
     }
 
-    public int getDays() {
-        return days;
+    /**
+     * @return
+     */
+    public Date getStartDate() {
+        return startDate;
     }
 
-    public void setDays(int days) {
-        this.days = days;
+    /**
+     * @param startDate
+     */
+    public void setStartDate(Date startDate) {
+        this.startDate = startDate;
     }
 
-    public int getTotalDuration() {
-        return totalDuration;
+    /**
+     * @return
+     */
+    public Date getEndDate() {
+        return endDate;
     }
 
-    public void setTotalDuration(int totalDuration) {
-        this.totalDuration = totalDuration;
+    /**
+     * @param endDate
+     */
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
     }
+
+    /**
+     * @return
+     */
+    public String getDescription() {
+        return description;
+    }
+
+    /**
+     * @param description
+     */
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    /**
+     * @return
+     */
+    public ArrayList<Milestone> getMilestones() {
+        return milestones;
+    }
+
+    /**
+     * @param milestones
+     */
+    public void setMilestones(ArrayList<Milestone> milestones) {
+        this.milestones = milestones;
+    }
+
 
     @Override
     public String toString() {
         return "Project{" +
-                "name='" + name + '\'' +
-                ", completionPercentage=" + completionPercentage +
-                ", days=" + days +
-                ", totalDuration=" + totalDuration +
+                "projectName='" + projectName + '\'' +
+                ", startDate=" + startDate +
+                ", endDate=" + endDate +
+                ", description='" + description + '\'' +
+                ", milestones=" + milestones +
                 '}';
     }
 }
