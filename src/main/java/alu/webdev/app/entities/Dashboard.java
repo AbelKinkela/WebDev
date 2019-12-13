@@ -23,9 +23,9 @@ public class Dashboard {
     /**
      *
      */
-    public void createProject(){
+    public void createProject(String name, int completionPercentage, int days, int totalDuration){
         projects = new ArrayList<Project>();
-        Project project = new Project();
+        Project project = new Project(name, completionPercentage, days, totalDuration);
         projects.add(project);
     }
 
