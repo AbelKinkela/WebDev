@@ -1,23 +1,37 @@
 package alu.webdev.app.entities;
 
 import java.util.ArrayList;
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Project {
-
+    private int projectId;
     private String projectName;
-    private Status projectStatus;
-    private Date startDate;
-    private Date endDate;
+    private String projectStatus;
+    private LocalDate startDate;
+    private LocalDate endDate;
     private String description;
     private ArrayList<Milestone> milestones;
 
     /**
      * @param projectName
      */
-    public Project(String projectName, Status projectStatus, Date startDate, Date endDate, String description, ArrayList<Milestone> milestones) {
+    public Project(String projectName, String projectStatus, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
         this.projectName = projectName;
-        this.projectStatus = projectStatus;
+        Status status = new Status(projectStatus);
+        this.projectStatus = status.getStatus();
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.description = description;
+        this.milestones = milestones;
+    }
+
+    /**
+     * @param projectName
+     */
+    public Project(int projectId, String projectName, String projectStatus, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
+        this.projectName = projectName;
+        Status status = new Status(projectStatus);
+        this.projectStatus = status.getStatus();
         this.startDate = startDate;
         this.endDate = endDate;
         this.description = description;
@@ -27,7 +41,7 @@ public class Project {
     /**
      *
      */
-    public Project(){
+    public Project() {
 
     }
 
@@ -49,42 +63,42 @@ public class Project {
     /**
      * @return
      */
-    public Status getProjectStatus() {
+    public String getProjectStatus() {
         return projectStatus;
     }
 
     /**
      * @param projectStatus
      */
-    public void setProjectStatus(Status projectStatus) {
+    public void setProjectStatus(String projectStatus) {
         this.projectStatus = projectStatus;
     }
 
     /**
      * @return
      */
-    public Date getStartDate() {
+    public LocalDate getStartDate() {
         return startDate;
     }
 
     /**
      * @param startDate
      */
-    public void setStartDate(Date startDate) {
+    public void setStartDate(LocalDate startDate) {
         this.startDate = startDate;
     }
 
     /**
      * @return
      */
-    public Date getEndDate() {
+    public LocalDate getEndDate() {
         return endDate;
     }
 
     /**
      * @param endDate
      */
-    public void setEndDate(Date endDate) {
+    public void setEndDate(LocalDate endDate) {
         this.endDate = endDate;
     }
 
@@ -100,6 +114,16 @@ public class Project {
      */
     public void setDescription(String description) {
         this.description = description;
+    }
+
+
+    public int getProjectId() {
+        return projectId;
+    }
+
+
+    public void setProjectId(int projectId) {
+        this.projectId = projectId;
     }
 
     /**
