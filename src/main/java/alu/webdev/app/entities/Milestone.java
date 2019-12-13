@@ -11,39 +11,28 @@ public class Milestone {
         this.status = status;
     }
 
-    /**
-     * @return
-     */
+
     public String getName() {
         return name;
     }
 
-    /**
-     * @param name
-     */
+
     public void setName(String name) {
         this.name = name;
     }
 
-    /**
-     * @return
-     */
+
     public Status getStatus() {
         return status;
     }
 
 
-    /**
-     * @param status
-     */
+
     public void setStatus(Status status) {
         this.status = status;
     }
 
 
-    /**
-     * @return
-     */
     @Override
     public String toString() {
         return "Milestone{" +

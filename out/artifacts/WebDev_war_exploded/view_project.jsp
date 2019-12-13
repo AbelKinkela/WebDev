@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -29,14 +30,14 @@
     <nav class="my-2 my-md-0 mr-md-3">
         <a class="p-2 text-dark" href="#">Dashboard</a>
         <a class="p-2 text-dark" href="#">Team</a>
-        <a class="p-2 text-dark" href="view_project.jsp">About</a>
-        <a class="p-2 text-dark" href="addProject.jsp">Help</a>
+        <a class="p-2 text-dark" href="#">About</a>
+        <a class="p-2 text-dark" href="#">Help</a>
     </nav>
     <a class="btn btn-outline-primary" href="#">Sign up</a>
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">Project Name</h1>
+    <h1 class="display-4">${projName}</h1>
 </div>
 
 <div class="container">
@@ -79,7 +80,6 @@
     </div>
 
 </div>
-
 
 <footer class="pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">

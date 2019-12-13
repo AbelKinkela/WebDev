@@ -20,9 +20,7 @@ public class Dashboard {
 
 
 
-    /**
-     *
-     */
+
     public void createProject(){
         projects = new ArrayList<Project>();
         Project project = new Project();

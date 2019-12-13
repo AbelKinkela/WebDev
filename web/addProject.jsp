@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.6">
-    <title>add Project</title>
+    <title>add Project ${name}</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/pricing/">
 
@@ -34,8 +36,8 @@
     <nav class="my-2 my-md-0 mr-md-3">
         <a class="p-2 text-dark" href="#">Dashboard</a>
         <a class="p-2 text-dark" href="#">Team</a>
-        <a class="p-2 text-dark" href="view_project.jsp">About</a>
-        <a class="p-2 text-dark" href="addProject.jsp">Help</a>
+        <a class="p-2 text-dark" href="#">About</a>
+        <a class="p-2 text-dark" href="#">Help</a>
     </nav>
     <a class="btn btn-outline-primary" href="#">Sign up</a>
 </div>
@@ -45,12 +47,12 @@
 </div>
 
 <div class="container">
-    <form>
+    <form action="addProject" method="post">
 
         <!-- Default input -->
         <div class="form-group">
             <label for="inputName">Project Name</label>
-            <input type="text" class="form-control" id="inputName" placeholder="WebDev-2">
+            <input type="text" class="form-control" id="inputName" placeholder="WebDev-2" name="projName">
         </div>
 
         <!-- Grid row -->
@@ -76,14 +78,12 @@
         </div>
 
 
-
-
-
         <!-- Default input -->
         <div class="form-group text-right">
             <div class="form-group text-left mile">
                 <label for="Milestone">Milestone</label>
-                <input type="text" class="form-control" class="Milestone" id="milestone" placeholder="Milestone" style="margin-bottom: 10px">
+                <input type="text" class="form-control" class="Milestone" id="milestone" placeholder="Milestone"
+                       style="margin-bottom: 10px">
             </div>
 
             <label for="add-more">Add new Milestone</label>
@@ -100,6 +100,8 @@
         </button>
     </form>
 </div>
+
+
 
 
 <footer class="pt-4 my-md-5 pt-md-5 border-top">
