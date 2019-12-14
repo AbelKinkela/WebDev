@@ -6,17 +6,16 @@ import java.time.LocalDate;
 public class Project {
     private int projectId;
     private String projectName;
-    private String projectStatus;
+    private boolean projectStatus;
     private LocalDate startDate;
     private LocalDate endDate;
     private String description;
     private ArrayList<Milestone> milestones;
 
 
-    public Project(String projectName, String projectStatus, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
+    public Project(String projectName, boolean projectStatus, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
         this.projectName = projectName;
-        Status status = new Status(projectStatus);
-        this.projectStatus = status.getStatus();
+        this.projectStatus = projectStatus;
         this.startDate = startDate;
         this.endDate = endDate;
         this.description = description;
@@ -25,10 +24,9 @@ public class Project {
 
 
 
-    public Project(int projectId, String projectName, String projectStatus, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
+    public Project(int projectId, String projectName, boolean projectStatus, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
         this.projectName = projectName;
-        Status status = new Status(projectStatus);
-        this.projectStatus = status.getStatus();
+        this.projectStatus = projectStatus;
         this.startDate = startDate;
         this.endDate = endDate;
         this.description = description;
@@ -52,13 +50,14 @@ public class Project {
 
 
 
-    public String getProjectStatus() {
+    public Boolean getProjectStatus() {
         return projectStatus;
     }
 
 
     public void setProjectStatus(String projectStatus) {
-        this.projectStatus = projectStatus;
+        Status status = new Status(projectStatus);
+        this.projectStatus = status.getStatus();
     }
 
 

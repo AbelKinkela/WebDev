@@ -2,28 +2,36 @@ package alu.webdev.app.entities;
 
 public class Status {
 
-    private String status;
+    private boolean status;
 
 
     public Status() {
-        this.status = "uncompleted";
+        this.status = false;
     }
 
 
     public Status(String status) {
-        this.status = status;
+        if(status.equalsIgnoreCase("Ongoing")){
+            this.status = false;
+        }else if(status.equalsIgnoreCase("Completed")){
+            this.status = true;
+        }else{
+            System.out.println("invalid Status");
+        }
     }
 
 
-    public String getStatus() {
+    public Boolean getStatus() {
         return status;
     }
 
 
     public void setStatus(String status) {
-        if (status.equalsIgnoreCase("uncompleted") || status.equalsIgnoreCase("completed")) {
-            this.status = status;
-        } else {
+        if (status.equalsIgnoreCase("ongoing")) {
+            this.status = false;
+        } else if(status.equalsIgnoreCase("completed")){
+            this.status = true;
+        }else {
             System.out.println("invalid Status type!");
         }
     }
