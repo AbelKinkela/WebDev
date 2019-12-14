@@ -5,6 +5,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="views/styles/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <!-- jQuery Modal -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
@@ -48,6 +50,8 @@
                 <input type="date" id="endDate" name="endDate" placeholder="Project end date.." required>
                 <label for="description">End Date</label>
                 <textarea id="description" name="description" required>Describe the project...</textarea>
+                <label for="milestones">Milestone</label><br> add each milestone separated by comma
+                <textarea id="milestones" name="milestones" required>Describe the project...</textarea>
 
                 <input type="submit" value="Create Project">
             </form>
@@ -76,13 +80,13 @@
             out.println("                      " +
                     "<div class=\"card mb-4 shadow-sm\">\n" +
                     "<div class=\"card-header\">" +
-                    "<h4 class=\"my-0 font-weight-normal\">" + p.getName() + "</h4>" +
+                    "<h4 class=\"my-0 font-weight-normal\">" + p.getProjectName() + "</h4>" +
                     "</div>" +
                     "<div class=\"card-body\">\n" +
-                    "<h1 class=\"card-title pricing-card-title\">" + p.getCompletionPercentage() + "<small class=\"text-muted\"> % Complete</small></h1>" +
+                    "<h1 class=\"card-title pricing-card-title\">" + "<small class=\"text-muted\"> % Complete</small></h1>" +
                     "<ul class=\"list-unstyled mt-3 mb-4\">" +
-                    "<li>Day " + p.getDays() + " of " + p.getTotalDuration() + " days </li>" +
-                    "<li>3 milestones</li>" +
+                    "<li>Day " + p.getCurrentProjectDuration() + " of " + p.getProjectTotalDays() + " days </li>" +
+                    "<li>Status: </li>" +
                     "</ul>"+
                     "</div>"+
                     "</div>"

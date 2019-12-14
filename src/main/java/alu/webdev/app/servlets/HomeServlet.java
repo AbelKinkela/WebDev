@@ -1,6 +1,9 @@
 package alu.webdev.app.servlets;
 
+import alu.webdev.app.dao.DatabaseConnection;
 import alu.webdev.app.entities.Dashboard;
+import alu.webdev.app.entities.Milestone;
+import alu.webdev.app.entities.Status;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -8,41 +11,68 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.PreparedStatement;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
+import java.util.ArrayList;
 
 public class HomeServlet extends HttpServlet {
     Dashboard dashboard = new Dashboard();
+    ArrayList<Milestone> milestones =new ArrayList<>();
     //Date aDate = new Date();
     SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        LocalDate today = LocalDate.now();
-        String name = request.getParameter("name");
+        String projectName = request.getParameter("name");
+        //String projectStatus = request.getParameter("projectStatus");
         String startDate = request.getParameter("startDate");
         String endDate = request.getParameter("endDate");
         String description = request.getParameter("description");
+        String milestones_string = request.getParameter("milestones");
+
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/d/yyyy");
         //convert String to LocalDate
         LocalDate startDate_formatted = LocalDate.parse(startDate);
         LocalDate endDate_formatted = LocalDate.parse(endDate);
-
         //LocalDate startDate_formatted = LocalDate.parse(startDate, formatter);
         //LocalDate endDate_formatted = LocalDate.parse(endDate, formatter);
 
-        Period project_total_duration = Period.between(startDate_formatted, endDate_formatted);
-        int totalDuration = project_total_duration.getDays();
+        createMileStones(milestones_string);
 
-        Period project_duration = Period.between(startDate_formatted, today);
-        int days = project_duration.getDays();
+        dashboard.createProject(projectName, startDate_formatted, endDate_formatted, description, milestones);
+        try {
+            // Initialize the database
+            Connection con = DatabaseConnection.initializeDatabase();
+            // Create a SQL query to insert data into demo table
+            // demo table consists of two columns, so two '?' is used
+            PreparedStatement st = con
+                    .prepareStatement("insert into PROJECT (NAME, START_DATE, END_DATE, DESCRIPTION, MILESTONES) values(?, ?, ?, ?, ?)");
+            st.setString(1, projectName);
+            //st.setString(2, projectStatus);
+            st.setDate(2, Date.valueOf(startDate));
+            st.setDate(3, Date.valueOf(endDate));
+            st.setString(4, description);
+            st.setString(5, milestones_string);
+            System.out.printf("here are the values I am trying to insert: %s, %s, %s, %S, %sS", projectName, startDate, endDate, description, milestones_string);
+            // Execute the insert command using executeUpdate()
+            // to make changes in database
+            st.executeUpdate();
 
-        int completionPercentage = (Integer) days/totalDuration;
+            // Close all the connections
+            st.close();
+            con.close();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
 
-        dashboard.createProject(name, completionPercentage, days, totalDuration);
+
+        //dashboard.createProject(name, completionPercentage, days, totalDuration);
 
     }
     @Override
@@ -56,5 +86,13 @@ public class HomeServlet extends HttpServlet {
 
         getServletContext().getRequestDispatcher("/Dashboard.jsp").forward(request, response);
 
+    }
+
+    public void createMileStones(String str)
+    {
+        String[] arrOfStr = str.split(",", -2);
+        for (String a : arrOfStr) {
+            milestones.add(new Milestone(a));
+        }
     }
 }
