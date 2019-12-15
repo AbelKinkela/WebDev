@@ -1,3 +1,8 @@
+<%--<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>&ndash;%&gt;--%>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="alu.webdev.app.entities.Project" %>
+<%@ page import="alu.webdev.app.entities.Milestone" %>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -18,22 +23,27 @@
 
 
     <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/views/styles/styles.css">
     <link href="pricing.css" rel="stylesheet">
     <link href="/views/styles/project.css" rel="stylesheet">
 </head>
 
 
 <body>
-<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-blue border-bottom shadow-sm">
-    <img class="my-0 mr-md-auto" src="views/images/logo.png" height="45">
-    <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="#">Dashboard</a>
-        <a class="p-2 text-dark" href="#">Team</a>
-        <a class="p-2 text-dark" href="#">About</a>
-        <a class="p-2 text-dark" href="#">Help</a>
-    </nav>
-    <a class="btn btn-outline-primary" href="#">Sign up</a>
-</div>
+
+<header>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom box-shadow topNav">
+        <img class="my-0 mr-md-auto" src="/views/images/logo.png" height="45" alt="HotTracker">
+        <nav class="my-2 my-md-0 mr-md-3 topNavMenu">
+            <a href="${pageContext.request.contextPath}/">Dashboard</a>
+            <a href="${pageContext.request.contextPath}/team">Team</a>
+            <a href="${pageContext.request.contextPath}/about">About</a>
+            <a href="${pageContext.request.contextPath}/help">Help</a>
+        </nav>
+        <a class="btn btn-primary" href="#">Sign up</a>
+    </div>
+</header>
+
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
     <h1 class="display-4">${project.projectName}</h1>
@@ -50,21 +60,27 @@
             </p>
         </div>
 
+
+
+
+
+
         <div class="col-sm-5">
+
             <h2>Milestones</h2>
             <table class="table table-borderless">
-                <tr>
-                    <th scope="col">Name</th>
-                </tr>
-                <tr>
-                    <td scope="row">Introduction</td>
-                </tr>
-                <tr>
-                    <td scope="row">Development</td>
-                </tr>
-                <tr>
-                    <td scope="row">Conclusion</td>
-                </tr>
+            <%
+                ArrayList<Milestone> milestones = (ArrayList<Milestone>) ((Project) request.getAttribute("project")).getMilestones();
+                if (milestones != null && !milestones.isEmpty()) {
+                    for (Milestone milestone : milestones) {
+                        out.println("                      " +
+                                "<tr>" +
+                                "<td scope=\"col\">"+milestone.getName()+"</td>" +
+                                "</tr>"
+                        );
+                    }
+                } else out.println("<p>There are no milestones yet!</p>");
+            %>
             </table>
         </div>
     </div>
@@ -110,7 +126,6 @@
         </div>
     </div>
 </footer>
-</div>
 </body>
 </html>
 

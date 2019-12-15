@@ -58,7 +58,7 @@
 
 
 
-            <a href="" rel="modal:close">Close</a>
+            <a href="" rel="modal:close">Cancel</a>
 
         </div>
         <div>

@@ -6,30 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08eaf662-57ec-4d04-a6da-8e4d418401cf" name="Default Changelist" comment="">
+    <list default="true" id="08eaf662-57ec-4d04-a6da-8e4d418401cf" name="Default Changelist" comment="dynamically fill fields of view_project.jsp with items from ProjectServlet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebDev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebDev.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/Dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/Dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/dao/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/dao/DatabaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Dashboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Milestone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Milestone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/HomeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/projectForm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/projectList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/projectList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/dao/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/dao/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/dao/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/dao/DatabaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/ProjectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/ProjectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/view_project.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/view_project.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/HomeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/projectList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/projectList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/ProjectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/ProjectServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/view_project.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view_project.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,11 +67,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="view_project.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view_project.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/view_project.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+            <state relative-caret-position="291">
+              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dashboard.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Dashboard.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -94,7 +88,7 @@
       <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
+            <state relative-caret-position="745">
               <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
             </state>
           </provider>
@@ -103,17 +97,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-563">
+            <state relative-caret-position="15">
               <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dashboard.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Dashboard.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -121,8 +106,8 @@
       <file leaf-file-name="ProjectServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-277">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="-442">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,7 +118,7 @@
       <file leaf-file-name="DbManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/dbCon/DbManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-142">
+            <state relative-caret-position="60">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
@@ -143,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Milestone.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -157,20 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dashboard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Project.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="300">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -212,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java" />
         <option value="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java" />
         <option value="$PROJECT_DIR$/web/Dashboard.jsp" />
+        <option value="$PROJECT_DIR$/web/views/javascript/addProject.js" />
         <option value="$PROJECT_DIR$/web/view_project.jsp" />
       </list>
     </option>
@@ -254,11 +231,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,20 +313,26 @@
             <path>
               <item name="WebDev" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebDev" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebDev" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebDev" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -534,7 +522,8 @@
       <workItem from="1576415821273" duration="10187000" />
       <workItem from="1576432281012" duration="4857000" />
       <workItem from="1576438003471" duration="3519000" />
-      <workItem from="1576444851944" duration="1333000" />
+      <workItem from="1576444851944" duration="1933000" />
+      <workItem from="1576448314183" duration="3743000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1 - Added code in the Dashboard.java for the logic of my Dashboard page.">
       <created>1575835869049</created>
@@ -592,47 +581,54 @@
       <option name="project" value="LOCAL" />
       <updated>1576424880054</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dynamically fill fields of view_project.jsp with items from ProjectServlet">
+      <created>1576446349364</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576446349364</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4852000" />
+    <option name="totallyTimeSpent" value="9199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="right" id="Flutter Outline" order="3" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Flutter Outline" order="5" />
+      <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="bottom" id="Messages" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32969698" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32969698" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -654,7 +650,8 @@
     <MESSAGE value="Commit 5 - Projects created by the user can now be added to the database." />
     <MESSAGE value="Commit 6 - Projects created by the user can now be seen in the dashboard." />
     <MESSAGE value="Commit 5 - Designing ways to handles milestones and calculate the % of project completion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 5 - Designing ways to handles milestones and calculate the % of project completion" />
+    <MESSAGE value="dynamically fill fields of view_project.jsp with items from ProjectServlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="dynamically fill fields of view_project.jsp with items from ProjectServlet" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="177" width="430" height="381" key="#BuildArtifactsBeforeRunChooser" />
@@ -769,34 +766,6 @@
     <state x="346" y="56" width="672" height="678" key="search.everywhere.popup/0.0.1366.735@0.0.1366.735" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/view_project.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Dashboard.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="139" column="17" lean-forward="true" selection-start-line="103" selection-start-column="8" selection-end-line="139" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/projectList.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -951,8 +920,202 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="450">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view_project.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="139" column="17" lean-forward="true" selection-start-line="103" selection-start-column="8" selection-end-line="139" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/projectList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/HomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/projectList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/HomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="79" column="59" lean-forward="true" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-277">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/dbCon/DbManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Milestone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f6960f40-7f88-4f9c-b3f2-e4ee5002663b/schema/hottracker/table/project">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/dao/DatabaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/javascript/addProject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view_project.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
         </state>
       </provider>
     </entry>
