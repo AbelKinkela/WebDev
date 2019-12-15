@@ -42,7 +42,7 @@
             <h2>Add new Project</h2>
             <form method="post">
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Project name.." required>
+                <input type="text" id="name" name="name" placeholder="Project name.." maxlength="25" required>
 
                 <label for="startDate">Start Date</label>
                 <input type="date" id="startDate" name="startDate" placeholder="Project starting date.." required>
@@ -71,24 +71,27 @@
 
     </section>
 
-    <section class="container">
-        <div class="card-deck mb-3 text-center">
+    <div class="container">
+        <div class="row text-center">
 <%
     ArrayList<Project> projects = (ArrayList<Project>) request.getAttribute("projects");
     if (projects != null && !projects.isEmpty()) {
         for (Project p : projects) {
             out.println("                      " +
-                    "<div class=\"card mb-4 shadow-sm\">\n" +
-                    "<div class=\"card-header\">" +
-                    "<h4 class=\"my-0 font-weight-normal\">" + p.getProjectName() + "</h4>" +
-                    "</div>" +
-                    "<div class=\"card-body\">\n" +
-                    "<h1 class=\"card-title pricing-card-title\">" + "<small class=\"text-muted\"> % Complete</small></h1>" +
-                    "<ul class=\"list-unstyled mt-3 mb-4\">" +
-                    "<li>Day " + p.getCurrentProjectDuration() + " of " + p.getProjectTotalDays() + " days </li>" +
-                    "<li>Status: </li>" +
-                    "</ul>"+
-                    "</div>"+
+                    "<div class=\"col-sm-3\" >"+
+                        "<div class=\"card mb-4 border-primary bg-white\" style=\"height:250px; border-radius: 30px; box-shadow: 0px 5px #2D9CDB;\" >\n" +
+                            "<div>" +
+                                "<h4 class=\"my-0 font-weight-bold mt-3\">" + p.getProjectName() + "</h4>" +
+                            "</div>" +
+                            "<div class=\"card-body\">\n" +
+                                "<p>Day " + p.getCurrentProjectDuration() + " of " + p.getProjectTotalDays() + " days </p>" +
+                                "<h4 class=\"card-title pricing-card-title\">" +"50"+ "<small class=\"text-muted\"> %</small></h4>" +
+                                "<h5>Complete</h5>"+
+                                "<ul class=\"list-unstyled mt-3 mb-4\">" +
+                                    "<li> </li>" +
+                                "</ul>"+
+                            "</div>"+
+                        "</div>"+
                     "</div>"
 
             );
@@ -134,7 +137,7 @@
                 </div>
             </div>
         </footer>
-    </section>
+    </div>
 </main>
 
 <script src="views/Scripts/scripts.js"></script>

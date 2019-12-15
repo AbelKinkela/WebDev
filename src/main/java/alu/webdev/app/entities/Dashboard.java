@@ -9,7 +9,7 @@ import java.util.ArrayList;
  */
 public class Dashboard {
 
-    private ArrayList<Project> projects=new ArrayList<Project>();;
+    private ArrayList<Project> projects=new ArrayList<Project>();
     int counter=0;
 
     public ArrayList<Project> getProjects() {

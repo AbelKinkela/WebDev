@@ -31,23 +31,11 @@ public class HomeServlet extends HttpServlet {
         String endDate = request.getParameter("endDate");
         String description = request.getParameter("description");
         String milestones_string = request.getParameter("milestones");
-/*
 
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/d/yyyy");
-        //convert String to LocalDate
-        LocalDate startDate_formatted = LocalDate.parse(startDate);
-        LocalDate endDate_formatted = LocalDate.parse(endDate);
-        //LocalDate startDate_formatted = LocalDate.parse(startDate, formatter);
-        //LocalDate endDate_formatted = LocalDate.parse(endDate, formatter);
-
-        createMileStones(milestones_string);
-
-        dashboard.createProject(projectName, startDate_formatted, endDate_formatted, description, milestones);*/
         try {
             // Initialize the database
             Connection con = DatabaseConnection.initializeDatabase();
-            // Create a SQL query to insert data into demo table
-            // demo table consists of two columns, so two '?' is used
+            // Create a SQL query to insert data into PROJECT table
             PreparedStatement st = con
                     .prepareStatement("insert into PROJECT (NAME, START_DATE, END_DATE, DESCRIPTION, MILESTONES) values(?, ?, ?, ?, ?)");
             st.setString(1, projectName);
@@ -120,7 +108,7 @@ public class HomeServlet extends HttpServlet {
         String[] arrOfStr = str.split(",", -2);
         for (String a : arrOfStr) {
             //System.out.println(a);
-            milestones.add(new Milestone(a));
+            milestones.add(new Milestone(a.trim()));
         }
     }
 }
