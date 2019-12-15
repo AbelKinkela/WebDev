@@ -11,44 +11,43 @@ public class Project {
     private LocalDate startDate;
     private LocalDate endDate;
     private String description;
-    //private ArrayList<Milestone> milestones;
-    int counter =0;
+    private ArrayList<Milestone> milestones;
 
-    /**
-     * @param projectName
-     */
-    public Project(String projectName, LocalDate startDate, LocalDate endDate, String description) {
+
+    public Project(int projectId, String projectName, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
+        this.projectId = projectId;
         this.projectName = projectName;
-        //Status status = new Status(projectStatus);
-        //this.projectStatus = status.getStatus();
         this.startDate = startDate;
         this.endDate = endDate;
         this.description = description;
-        //this.milestones = milestones;
-        System.out.println("Project created.."+counter);
-        counter++;
+        this.milestones = milestones;
     }
 
-    /**
-     * @param projectId
-     * @param projectName
-     * @param startDate
-     * @param endDate
-     * @param description
-     */
     public Project(int projectId, String projectName, LocalDate startDate, LocalDate endDate, String description) {
         this.projectId = projectId;
         this.projectName = projectName;
-        //Status status = new Status(projectStatus);
-        //this.projectStatus = status.getStatus();
         this.startDate = startDate;
         this.endDate = endDate;
         this.description = description;
-        //this.milestones = milestones;
     }
 
-    public Project(){
+    public Project(String projectName, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
+        this.projectName = projectName;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.description = description;
+        this.milestones = milestones;
+    }
 
+    public Project() {
+
+    }
+
+    public Project(int projectId, String projectName, LocalDate startDate, LocalDate endDate) {
+        this.projectId = projectId;
+        this.projectName = projectName;
+        this.startDate = startDate;
+        this.endDate = endDate;
     }
 
     /**
@@ -66,20 +65,6 @@ public class Project {
     }
 
 
-
-    /**
-     * @return
-     */
-   // public String getProjectStatus() {
-        //return projectStatus;
-   // }
-
-    /**
-     * @param projectStatus
-     */
-/*    public void setProjectStatus(String projectStatus) {
-        this.projectStatus = projectStatus;
-    }*/
 
     /**
      * @return
@@ -133,19 +118,17 @@ public class Project {
         this.projectId = projectId;
     }
 
-//    /**
-//     * @return
-//     */
-//    public ArrayList<Milestone> getMilestones() {
-//        return milestones;
-//    }
+    /**
+     * @return
+     */
+    public ArrayList<Milestone> getMilestones() {
+        return milestones;
+    }
 
-//    /**
-//     * @param milestones
-//     */
-//    public void setMilestones(ArrayList<Milestone> milestones) {
-//        this.milestones = milestones;
-//    }
+
+    public void setMilestones(ArrayList<Milestone> milestones) {
+        this.milestones = milestones;
+    }
 
     public int getProjectTotalDays(){
         Period project_total_duration = Period.between(startDate, endDate);
@@ -166,7 +149,6 @@ public class Project {
                 ", startDate=" + startDate +
                 ", endDate=" + endDate +
                 ", description='" + description + '\'' +
-//                ", milestones=" + milestones +
                 '}';
     }
 }

@@ -1,6 +1,7 @@
 package alu.webdev.app.servlets;
 
 import alu.webdev.app.dao.DatabaseConnection;
+import alu.webdev.app.entities.Milestone;
 import alu.webdev.app.entities.Project;
 
 import javax.servlet.ServletException;
@@ -12,8 +13,12 @@ import java.sql.Connection;
 import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.ArrayList;
 
 public class ProjectServlet extends HttpServlet {
+
+    ArrayList<Milestone> milestones=new ArrayList<>();
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
@@ -39,10 +44,10 @@ public class ProjectServlet extends HttpServlet {
                 Date start_date = rs.getDate("START_DATE");
                 Date end_date = rs.getDate("END_DATE");
                 String description = rs.getString("DESCRIPTION");
-                //String milestones_string = rs.getString("MILESTONES");
-                //createMileStones(milestones_string);
+                String milestones_string = rs.getString("MILESTONES");
+                createMileStones(milestones_string);
                 //System.out.println("Record:");
-                project = new Project(projectID, projectName, start_date.toLocalDate(), end_date.toLocalDate(), description);
+                project = new Project(projectID, projectName, start_date.toLocalDate(), end_date.toLocalDate(), description, milestones);
 
             }
             conn.close();
@@ -57,5 +62,13 @@ public class ProjectServlet extends HttpServlet {
         request.setAttribute("project", project);
         getServletContext().getRequestDispatcher("/view_project.jsp").forward(request, response);
 
+    }
+
+    public void createMileStones(String str)
+    {
+        String[] arrOfStr = str.split(",", -2);
+        for (String a : arrOfStr) {
+            milestones.add(new Milestone(a.trim()));
+        }
     }
 }
