@@ -83,8 +83,7 @@ public class HomeServlet extends HttpServlet {
                 String milestones_string = rs.getString("MILESTONES");
 
                 createMileStones(milestones_string);
-                System.out.println("Record:");
-                dashboard.createProject(projectID, projectName, start_date.toLocalDate(), end_date.toLocalDate(), description, milestones);
+                dashboard.createProject(projectID, projectName, start_date.toLocalDate(), end_date.toLocalDate(), description);
             }
 
 
@@ -95,9 +94,7 @@ public class HomeServlet extends HttpServlet {
             e.printStackTrace();
         }
 
-/*        for (Project p : dashboard.getProjects()) {
-            System.out.println(p.getProjectName());
-        }*/
+
        request.setAttribute("projects", dashboard.getProjects());
         getServletContext().getRequestDispatcher("/Dashboard.jsp").forward(request, response);
 
@@ -107,7 +104,6 @@ public class HomeServlet extends HttpServlet {
     {
         String[] arrOfStr = str.split(",", -2);
         for (String a : arrOfStr) {
-            //System.out.println(a);
             milestones.add(new Milestone(a.trim()));
         }
     }

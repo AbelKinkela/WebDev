@@ -11,22 +11,22 @@ public class Project {
     private LocalDate startDate;
     private LocalDate endDate;
     private String description;
-    private ArrayList<Milestone> milestones;
-    int counter =0;
+    //private ArrayList<Milestone> milestones;
+
 
     /**
      * @param projectName
      */
-    public Project(String projectName, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
+    public Project(String projectName, LocalDate startDate, LocalDate endDate, String description) {
         this.projectName = projectName;
         //Status status = new Status(projectStatus);
         //this.projectStatus = status.getStatus();
         this.startDate = startDate;
         this.endDate = endDate;
         this.description = description;
-        this.milestones = milestones;
-        System.out.println("Project created.."+counter);
-        counter++;
+        //this.milestones = milestones;
+
+
     }
 
     /**
@@ -35,9 +35,9 @@ public class Project {
      * @param startDate
      * @param endDate
      * @param description
-     * @param milestones
+     *
      */
-    public Project(int projectId, String projectName, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
+    public Project(int projectId, String projectName, LocalDate startDate, LocalDate endDate, String description) {
         this.projectId = projectId;
         this.projectName = projectName;
         //Status status = new Status(projectStatus);
@@ -45,7 +45,11 @@ public class Project {
         this.startDate = startDate;
         this.endDate = endDate;
         this.description = description;
-        this.milestones = milestones;
+        //this.milestones = milestones;
+    }
+
+    public Project() {
+
     }
 
 
@@ -133,16 +137,14 @@ public class Project {
     /**
      * @return
      */
-    public ArrayList<Milestone> getMilestones() {
-        return milestones;
-    }
+    //public ArrayList<Milestone> getMilestones() {
+        //return milestones;
+   // }
 
-    /**
-     * @param milestones
-     */
-    public void setMilestones(ArrayList<Milestone> milestones) {
-        this.milestones = milestones;
-    }
+
+   // public void setMilestones(ArrayList<Milestone> milestones) {
+    //    this.milestones = milestones;
+   // }
 
     public int getProjectTotalDays(){
         Period project_total_duration = Period.between(startDate, endDate);
@@ -163,7 +165,6 @@ public class Project {
                 ", startDate=" + startDate +
                 ", endDate=" + endDate +
                 ", description='" + description + '\'' +
-                ", milestones=" + milestones +
                 '}';
     }
 }

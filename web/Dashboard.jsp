@@ -45,9 +45,9 @@
                 <input type="text" id="name" name="name" placeholder="Project name.." maxlength="25" required>
 
                 <label for="startDate">Start Date</label>
-                <input type="date" id="startDate" name="startDate" placeholder="Project starting date.." required>
+                <input type="date" id="startDate" name="startDate" required>
                 <label for="endDate">End Date</label>
-                <input type="date" id="endDate" name="endDate" placeholder="Project end date.." required>
+                <input type="date" id="endDate" name="endDate" required>
                 <label for="description">End Date</label>
                 <textarea id="description" name="description" required>Describe the project...</textarea>
                 <label for="milestones">Milestone</label><br> add each milestone separated by comma
