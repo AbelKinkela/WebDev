@@ -12,7 +12,7 @@ public class Project {
     private LocalDate endDate;
     private String description;
     //private ArrayList<Milestone> milestones;
-
+    int counter =0;
 
     /**
      * @param projectName
@@ -25,8 +25,8 @@ public class Project {
         this.endDate = endDate;
         this.description = description;
         //this.milestones = milestones;
-
-
+        System.out.println("Project created.."+counter);
+        counter++;
     }
 
     /**
@@ -35,7 +35,6 @@ public class Project {
      * @param startDate
      * @param endDate
      * @param description
-     *
      */
     public Project(int projectId, String projectName, LocalDate startDate, LocalDate endDate, String description) {
         this.projectId = projectId;
@@ -48,10 +47,9 @@ public class Project {
         //this.milestones = milestones;
     }
 
-    public Project() {
+    public Project(){
 
     }
-
 
     /**
      * @return
@@ -66,6 +64,7 @@ public class Project {
     public void setProjectName(String projectName) {
         this.projectName = projectName;
     }
+
 
 
     /**
@@ -134,17 +133,19 @@ public class Project {
         this.projectId = projectId;
     }
 
-    /**
-     * @return
-     */
-    //public ArrayList<Milestone> getMilestones() {
-        //return milestones;
-   // }
+//    /**
+//     * @return
+//     */
+//    public ArrayList<Milestone> getMilestones() {
+//        return milestones;
+//    }
 
-
-   // public void setMilestones(ArrayList<Milestone> milestones) {
-    //    this.milestones = milestones;
-   // }
+//    /**
+//     * @param milestones
+//     */
+//    public void setMilestones(ArrayList<Milestone> milestones) {
+//        this.milestones = milestones;
+//    }
 
     public int getProjectTotalDays(){
         Period project_total_duration = Period.between(startDate, endDate);
@@ -165,6 +166,7 @@ public class Project {
                 ", startDate=" + startDate +
                 ", endDate=" + endDate +
                 ", description='" + description + '\'' +
+//                ", milestones=" + milestones +
                 '}';
     }
 }

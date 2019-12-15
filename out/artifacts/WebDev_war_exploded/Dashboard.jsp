@@ -45,9 +45,9 @@
                 <input type="text" id="name" name="name" placeholder="Project name.." maxlength="25" required>
 
                 <label for="startDate">Start Date</label>
-                <input type="date" id="startDate" name="startDate" placeholder="Project starting date.." required>
+                <input type="date" id="startDate" name="startDate" required>
                 <label for="endDate">End Date</label>
-                <input type="date" id="endDate" name="endDate" placeholder="Project end date.." required>
+                <input type="date" id="endDate" name="endDate" required>
                 <label for="description">End Date</label>
                 <textarea id="description" name="description" required>Describe the project...</textarea>
                 <label for="milestones">Milestone</label><br> add each milestone separated by comma
@@ -58,7 +58,7 @@
 
 
 
-            <a href="#" rel="modal:close">Close</a>
+            <a href="" rel="modal:close">Cancel</a>
 
         </div>
         <div>
@@ -78,7 +78,8 @@
     if (projects != null && !projects.isEmpty()) {
         for (Project p : projects) {
             out.println("                      " +
-                    "<div class=\"col-sm-3\" >"+
+                    "<a class=\"col-sm-3 projectCard\" href=\"/project/" + p.getProjectId() +
+                    "\" >"+
                         "<div class=\"card mb-4 border-primary bg-white\" style=\"height:250px; border-radius: 30px; box-shadow: 0px 5px #2D9CDB;\" >\n" +
                             "<div>" +
                                 "<h4 class=\"my-0 font-weight-bold mt-3\">" + p.getProjectName() + "</h4>" +
@@ -92,7 +93,7 @@
                                 "</ul>"+
                             "</div>"+
                         "</div>"+
-                    "</div>"
+                    "</a>"
 
             );
         }

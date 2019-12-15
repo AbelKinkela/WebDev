@@ -37,13 +37,13 @@ public class HomeServlet extends HttpServlet {
             Connection con = DatabaseConnection.initializeDatabase();
             // Create a SQL query to insert data into PROJECT table
             PreparedStatement st = con
-                    .prepareStatement("insert into PROJECT (NAME, START_DATE, END_DATE, DESCRIPTION, MILESTONES) values(?, ?, ?, ?, ?)");
+                    .prepareStatement("insert into PROJECT (NAME, START_DATE, END_DATE, DESCRIPTION) values(?, ?, ?, ?)");
             st.setString(1, projectName);
             //st.setString(2, projectStatus);
             st.setDate(2, Date.valueOf(startDate));
             st.setDate(3, Date.valueOf(endDate));
             st.setString(4, description);
-            st.setString(5, milestones_string);
+            //st.setString(5, milestones_string);
             System.out.printf("values I am trying to insert: %s, %s, %s, %S, %sS", projectName, startDate, endDate, description, milestones_string);
             // Execute the insert command using executeUpdate()
             // to make changes in database
@@ -80,9 +80,10 @@ public class HomeServlet extends HttpServlet {
                 Date start_date = rs.getDate("START_DATE");
                 Date end_date = rs.getDate("END_DATE");
                 String description = rs.getString("DESCRIPTION");
-                String milestones_string = rs.getString("MILESTONES");
+                //String milestones_string = rs.getString("MILESTONES");
 
-                createMileStones(milestones_string);
+                //createMileStones(milestones_string);
+                //System.out.println("Record:");
                 dashboard.createProject(projectID, projectName, start_date.toLocalDate(), end_date.toLocalDate(), description);
             }
 
@@ -94,7 +95,9 @@ public class HomeServlet extends HttpServlet {
             e.printStackTrace();
         }
 
-
+/*        for (Project p : dashboard.getProjects()) {
+            System.out.println(p.getProjectName());
+        }*/
        request.setAttribute("projects", dashboard.getProjects());
         getServletContext().getRequestDispatcher("/Dashboard.jsp").forward(request, response);
 
@@ -104,6 +107,7 @@ public class HomeServlet extends HttpServlet {
     {
         String[] arrOfStr = str.split(",", -2);
         for (String a : arrOfStr) {
+            //System.out.println(a);
             milestones.add(new Milestone(a.trim()));
         }
     }

@@ -29,29 +29,24 @@
     <nav class="my-2 my-md-0 mr-md-3">
         <a class="p-2 text-dark" href="#">Dashboard</a>
         <a class="p-2 text-dark" href="#">Team</a>
-        <a class="p-2 text-dark" href="view_project.jsp">About</a>
-        <a class="p-2 text-dark" href="addProject.jsp">Help</a>
+        <a class="p-2 text-dark" href="#">About</a>
+        <a class="p-2 text-dark" href="#">Help</a>
     </nav>
     <a class="btn btn-outline-primary" href="#">Sign up</a>
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">${ project.getProjectName()}</h1>
+    <h1 class="display-4">${project.projectName}</h1>
 </div>
 
 <div class="container">
     <div class="row">
         <div class="col-sm-7" style="border-right:1px black solid;">
-            <p><span style="font-weight: bold">Start date:</span> November 1st, 2019</p>
-            <p><span style="font-weight: bold">End date:</span> December 31st, 2019</p>
+            <p><span style="font-weight: bold">Start date:</span> ${project.startDate}</p>
+            <p><span style="font-weight: bold">End date:</span>${project.endDate}</p>
             <p style="font-weight: bold">Project Full description:</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                industry. Lorem Ipsum has been the industry's standard dummy
-                industry. Lorem Ipsum has been the industry's standard dummy
-                industry. Lorem Ipsum has been the industry's standard dummy
-                industry. Lorem Ipsum has been the industry's standard dummy
-                industry. Lorem Ipsum has been the industry's standard dummy
+            <p>
+                ${project.description}
             </p>
         </div>
 
@@ -60,19 +55,15 @@
             <table class="table table-borderless">
                 <tr>
                     <th scope="col">Name</th>
-                    <th scope="col">Status</th>
                 </tr>
                 <tr>
                     <td scope="row">Introduction</td>
-                    <td class="green">Completed</td>
                 </tr>
                 <tr>
                     <td scope="row">Development</td>
-                    <td class="red">Incomplete</td>
                 </tr>
                 <tr>
                     <td scope="row">Conclusion</td>
-                    <td class="red">Incomplete</td>
                 </tr>
             </table>
         </div>
@@ -84,8 +75,9 @@
 <footer class="pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">
         <div class="col-12 col-md">
-            <img class="mb-2" src="/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
-            <small class="d-block mb-3 text-muted">&copy; 2017-2019</small>
+            <img class="mb-2" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="24"
+                 height="24">
+            <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
         </div>
         <div class="col-6 col-md">
             <h5>Features</h5>
@@ -121,3 +113,5 @@
 </div>
 </body>
 </html>
+
+

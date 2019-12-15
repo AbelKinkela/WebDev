@@ -8,17 +8,33 @@
   <component name="ChangeListManager">
     <list default="true" id="08eaf662-57ec-4d04-a6da-8e4d418401cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/view_project.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/view_project.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebDev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebDev.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/Dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/Dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/dao/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/dao/DatabaseConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Dashboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Milestone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Milestone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/HomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/projectForm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/projectList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/projectList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/dao/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/dao/DatabaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/Dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/Dashboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/dao/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/dao/DatabaseConnection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/HomeServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/projectList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/projectList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/view_project.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view_project.jsp" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,31 +54,128 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="@localhost [2]" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="@localhost [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="@localhost [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="WebDev: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="HotTracker: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="@localhost [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="WebDev: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="PROJECT: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="HotTracker: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="PROJECT: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="WebDev" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="view_project.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/view_project.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-563">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dashboard.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Dashboard.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-277">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/dbCon/DbManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-142">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Milestone.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Milestone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseConnection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/dao/DatabaseConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dashboard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Project.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,13 +194,27 @@
         <option value="Abel Makanzu Kinkela &lt;akinkela16@alustudent.com&gt;" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/projectList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/alu/webdev/app/dao/DatabaseConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/HomeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java" />
+        <option value="$PROJECT_DIR$/web/Dashboard.jsp" />
+        <option value="$PROJECT_DIR$/web/view_project.jsp" />
+      </list>
+    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -95,6 +222,12 @@
         <option value="$PROJECT_DIR$/.idea" />
       </set>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -110,9 +243,109 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
   <component name="ProjectId" id="1Uea8K9r0IvhBJEiRwdGrk83wKW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="dbCon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebDev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDev" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -131,6 +364,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/views/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -139,6 +373,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -150,9 +385,21 @@
       <command value="mvn compile" />
     </option>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.29" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.29" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="WebDev:war exploded">
@@ -164,11 +411,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_WebDev_2" />
       </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="true" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="true" />
       <log_file alias="Tomcat Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/manager.*" />
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file enabled="true" id="Tomcat Host Manager" />
-      <predefined_log_file enabled="true" id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="44347" />
       </RunnerSettings>
@@ -217,8 +464,7 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
+      <method>
         <option name="BuildArtifacts" enabled="true">
           <artifact name="WebDev:war exploded" />
         </option>
@@ -240,15 +486,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@7da7530a" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -295,7 +532,9 @@
       <workItem from="1576359362076" duration="16511000" />
       <workItem from="1576407092215" duration="6395000" />
       <workItem from="1576415821273" duration="10187000" />
-      <workItem from="1576432281012" duration="10958000" />
+      <workItem from="1576432281012" duration="4857000" />
+      <workItem from="1576438003471" duration="3519000" />
+      <workItem from="1576444851944" duration="1333000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1 - Added code in the Dashboard.java for the logic of my Dashboard page.">
       <created>1575835869049</created>
@@ -353,21 +592,60 @@
       <option name="project" value="LOCAL" />
       <updated>1576424880054</updated>
     </task>
-    <task id="LOCAL-00009" summary="Commit 6 - Connection with the view_project.jsp made. Users can now click on a project to see project page details">
-      <created>1576437714918</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1576437714918</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4852000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="right" id="Flutter Outline" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32969698" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit 1 - Added code in the Dashboard.java for the logic of my Dashboard page." />
     <MESSAGE value="Commit 2 - The landing page now have a simple structure of the Dashboard." />
     <MESSAGE value="Commit 3 - The dashboard front hardcoded, you can see how the overall structure look" />
@@ -376,229 +654,307 @@
     <MESSAGE value="Commit 5 - Projects created by the user can now be added to the database." />
     <MESSAGE value="Commit 6 - Projects created by the user can now be seen in the dashboard." />
     <MESSAGE value="Commit 5 - Designing ways to handles milestones and calculate the % of project completion" />
-    <MESSAGE value="Commit 6 - Connection with the view_project.jsp made. Users can now click on a project to see project page details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 6 - Connection with the view_project.jsp made. Users can now click on a project to see project page details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 5 - Designing ways to handles milestones and calculate the % of project completion" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="177" width="430" height="381" key="#BuildArtifactsBeforeRunChooser" timestamp="1576005780482">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="466" y="177" width="430" height="381" key="#BuildArtifactsBeforeRunChooser/0.0.1366.735@0.0.1366.735" timestamp="1576005780482" />
-    <state x="276" y="27" width="806" height="674" key="#Notifications" timestamp="1576262345148">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="276" y="27" width="806" height="674" key="#Notifications/0.0.1366.735@0.0.1366.735" timestamp="1576262345148" />
-    <state x="278" y="30" width="806" height="674" key="#Project_Structure" timestamp="1576426445501">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="278" y="30" width="806" height="674" key="#Project_Structure/0.0.1366.735@0.0.1366.735" timestamp="1576426445501" />
-    <state x="226" y="26" width="861" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576426446029">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="226" y="26" width="861" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.735@0.0.1366.735" timestamp="1576426446029" />
-    <state x="429" y="175" width="503" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575720956193">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="429" y="175" width="503" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.735@0.0.1366.735" timestamp="1575720956193" />
-    <state x="489" y="85" width="528" height="559" key="#com.intellij.ide.util.MemberChooser" timestamp="1576421499370">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="489" y="85" width="528" height="559" key="#com.intellij.ide.util.MemberChooser/0.0.1366.735@0.0.1366.735" timestamp="1576421499370" />
-    <state x="299" y="62" width="763" height="611" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1576355877625">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="299" y="62" width="763" height="611" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.735@0.0.1366.735" timestamp="1576355877625" />
-    <state x="528" y="258" width="306" height="213" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576005010152">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="528" y="258" width="306" height="213" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.735@0.0.1366.735" timestamp="1576005010152" />
-    <state x="278" y="30" width="806" height="674" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1576008289801">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="278" y="30" width="806" height="674" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1366.735@0.0.1366.735" timestamp="1576008289801" />
-    <state x="414" y="116" width="530" height="496" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576262645442">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="414" y="116" width="530" height="496" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.735@0.0.1366.735" timestamp="1576262645442" />
-    <state x="382" y="8" width="598" height="719" key="#mysql-connector-java-8.0.18.jar" timestamp="1576350187328">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="382" y="8" width="598" height="719" key="#mysql-connector-java-8.0.18.jar/0.0.1366.735@0.0.1366.735" timestamp="1576350187328" />
-    <state x="424" y="226" width="510" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576219332747">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="424" y="226" width="510" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.735@0.0.1366.735" timestamp="1576219332747" />
-    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2" timestamp="1576437713132">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2/0.0.1366.735@0.0.1366.735" timestamp="1576437713132" />
-    <state x="466" y="127" width="663" height="481" key="FileChooserDialogImpl" timestamp="1576355939161">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="466" y="127" width="663" height="481" key="FileChooserDialogImpl/0.0.1366.735@0.0.1366.735" timestamp="1576355939161" />
-    <state width="1071" height="186" key="GridCell.Tab.0.bottom" timestamp="1576444388919">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.0.bottom/0.0.1366.735@0.0.1366.735" timestamp="1576444388919" />
-    <state width="1071" height="186" key="GridCell.Tab.0.center" timestamp="1576444388918">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.0.center/0.0.1366.735@0.0.1366.735" timestamp="1576444388918" />
-    <state width="1071" height="186" key="GridCell.Tab.0.left" timestamp="1576444388918">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.0.left/0.0.1366.735@0.0.1366.735" timestamp="1576444388918" />
-    <state width="1071" height="186" key="GridCell.Tab.0.right" timestamp="1576444388919">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.0.right/0.0.1366.735@0.0.1366.735" timestamp="1576444388919" />
-    <state width="1071" height="186" key="GridCell.Tab.1.bottom" timestamp="1576444388706">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.1.bottom/0.0.1366.735@0.0.1366.735" timestamp="1576444388706" />
-    <state width="1071" height="186" key="GridCell.Tab.1.center" timestamp="1576444388706">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.1.center/0.0.1366.735@0.0.1366.735" timestamp="1576444388706" />
-    <state width="1071" height="186" key="GridCell.Tab.1.left" timestamp="1576444388705">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.1.left/0.0.1366.735@0.0.1366.735" timestamp="1576444388705" />
-    <state width="1071" height="186" key="GridCell.Tab.1.right" timestamp="1576444388706">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.1.right/0.0.1366.735@0.0.1366.735" timestamp="1576444388706" />
-    <state width="1071" height="186" key="GridCell.Tab.2.bottom" timestamp="1576444388707">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.2.bottom/0.0.1366.735@0.0.1366.735" timestamp="1576444388707" />
-    <state width="1071" height="186" key="GridCell.Tab.2.center" timestamp="1576444388707">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.2.center/0.0.1366.735@0.0.1366.735" timestamp="1576444388707" />
-    <state width="1071" height="186" key="GridCell.Tab.2.left" timestamp="1576444388706">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.2.left/0.0.1366.735@0.0.1366.735" timestamp="1576444388706" />
-    <state width="1071" height="186" key="GridCell.Tab.2.right" timestamp="1576444388707">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.2.right/0.0.1366.735@0.0.1366.735" timestamp="1576444388707" />
-    <state width="1071" height="186" key="GridCell.Tab.3.bottom" timestamp="1576444388708">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.3.bottom/0.0.1366.735@0.0.1366.735" timestamp="1576444388708" />
-    <state width="1071" height="186" key="GridCell.Tab.3.center" timestamp="1576444388707">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.3.center/0.0.1366.735@0.0.1366.735" timestamp="1576444388707" />
-    <state width="1071" height="186" key="GridCell.Tab.3.left" timestamp="1576444388707">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.3.left/0.0.1366.735@0.0.1366.735" timestamp="1576444388707" />
-    <state width="1071" height="186" key="GridCell.Tab.3.right" timestamp="1576444388708">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.3.right/0.0.1366.735@0.0.1366.735" timestamp="1576444388708" />
-    <state width="1071" height="186" key="GridCell.Tab.4.bottom" timestamp="1576444388709">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.4.bottom/0.0.1366.735@0.0.1366.735" timestamp="1576444388709" />
-    <state width="1071" height="186" key="GridCell.Tab.4.center" timestamp="1576444388709">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.4.center/0.0.1366.735@0.0.1366.735" timestamp="1576444388709" />
-    <state width="1071" height="186" key="GridCell.Tab.4.left" timestamp="1576444388709">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.4.left/0.0.1366.735@0.0.1366.735" timestamp="1576444388709" />
-    <state width="1071" height="186" key="GridCell.Tab.4.right" timestamp="1576444388709">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.4.right/0.0.1366.735@0.0.1366.735" timestamp="1576444388709" />
-    <state width="1071" height="186" key="GridCell.Tab.5.bottom" timestamp="1576444388710">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.5.bottom/0.0.1366.735@0.0.1366.735" timestamp="1576444388710" />
-    <state width="1071" height="186" key="GridCell.Tab.5.center" timestamp="1576444388710">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.5.center/0.0.1366.735@0.0.1366.735" timestamp="1576444388710" />
-    <state width="1071" height="186" key="GridCell.Tab.5.left" timestamp="1576444388710">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.5.left/0.0.1366.735@0.0.1366.735" timestamp="1576444388710" />
-    <state width="1071" height="186" key="GridCell.Tab.5.right" timestamp="1576444388710">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state width="1071" height="186" key="GridCell.Tab.5.right/0.0.1366.735@0.0.1366.735" timestamp="1576444388710" />
-    <state x="216" y="27" width="930" height="681" key="Maven.ArtifactSearchDialog" timestamp="1575720238333">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="216" y="27" width="930" height="681" key="Maven.ArtifactSearchDialog/0.0.1366.735@0.0.1366.735" timestamp="1575720238333" />
-    <state x="441" y="93" width="480" height="548" key="RollbackChangesDialog" timestamp="1576353180731">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="441" y="93" width="480" height="548" key="RollbackChangesDialog/0.0.1366.735@0.0.1366.735" timestamp="1576353180731" />
-    <state x="179" y="0" width="1030" height="732" key="SettingsEditor" timestamp="1576347383768">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="179" y="0" width="1030" height="732" key="SettingsEditor/0.0.1366.735@0.0.1366.735" timestamp="1576347383768" />
-    <state x="273" y="102" width="806" height="525" key="Vcs.Push.Dialog.v2" timestamp="1576437733600">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="273" y="102" width="806" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.735@0.0.1366.735" timestamp="1576437733600" />
-    <state x="569" y="258" width="344" height="228" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1576361161754">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="569" y="258" width="344" height="228" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.735@0.0.1366.735" timestamp="1576361161754" />
-    <state x="455" y="200" width="451" height="338" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1576361093239">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="455" y="200" width="451" height="338" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.735@0.0.1366.735" timestamp="1576361093239" />
-    <state x="395" y="14" width="572" height="707" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1576422417521">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="395" y="14" width="572" height="707" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.735@0.0.1366.735" timestamp="1576422417521" />
-    <state x="536" y="135" width="289" height="465" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1576277223410">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="536" y="135" width="289" height="465" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1366.735@0.0.1366.735" timestamp="1576277223410" />
-    <state x="97" y="100" width="1172" height="538" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1576426598426">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="97" y="100" width="1172" height="538" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1366.735@0.0.1366.735" timestamp="1576426598426" />
-    <state x="362" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1576432343430">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="362" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.735@0.0.1366.735" timestamp="1576432343430" />
-    <state x="367" y="262" width="650" height="218" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576347275582">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="367" y="262" width="650" height="218" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.735@0.0.1366.735" timestamp="1576347275582" />
-    <state x="469" y="289" width="427" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576420165582">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="469" y="289" width="427" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.735@0.0.1366.735" timestamp="1576420165582" />
-    <state x="445" y="83" width="468" height="563" key="git4idea.branch.GitSmartOperationDialog" timestamp="1576262609826">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="445" y="83" width="468" height="563" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.735@0.0.1366.735" timestamp="1576262609826" />
-    <state x="10" y="67" width="1341" height="600" key="new project wizard" timestamp="1576352479505">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="10" y="67" width="1341" height="600" key="new project wizard/0.0.1366.735@0.0.1366.735" timestamp="1576352479505" />
-    <state x="387" y="0" width="588" height="732" key="refactoring.ChangeSignatureDialog" timestamp="1576366511865">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="387" y="0" width="588" height="732" key="refactoring.ChangeSignatureDialog/0.0.1366.735@0.0.1366.735" timestamp="1576366511865" />
-    <state x="342" y="161" width="672" height="677" key="run.anything.popup" timestamp="1576356140419">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="342" y="161" width="672" height="677" key="run.anything.popup/0.0.1366.735@0.0.1366.735" timestamp="1576356140419" />
-    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup" timestamp="1576433242260">
-      <screen x="0" y="0" width="1366" height="735" />
-    </state>
-    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup/0.0.1366.735@0.0.1366.735" timestamp="1576433242260" />
+    <state x="466" y="177" width="430" height="381" key="#BuildArtifactsBeforeRunChooser" />
+    <state x="466" y="177" width="430" height="381" key="#BuildArtifactsBeforeRunChooser/0.0.1366.735@0.0.1366.735" />
+    <state x="276" y="27" width="806" height="674" key="#Notifications" />
+    <state x="276" y="27" width="806" height="674" key="#Notifications/0.0.1366.735@0.0.1366.735" />
+    <state x="278" y="30" width="806" height="674" key="#Project_Structure" />
+    <state x="278" y="30" width="806" height="674" key="#Project_Structure/0.0.1366.735@0.0.1366.735" />
+    <state x="226" y="26" width="861" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="226" y="26" width="861" height="674" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.735@0.0.1366.735" />
+    <state x="429" y="175" width="503" height="384" key="#com.intellij.fileTypes.FileTypeChooser" />
+    <state x="429" y="175" width="503" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.735@0.0.1366.735" />
+    <state x="489" y="85" width="528" height="559" key="#com.intellij.ide.util.MemberChooser" />
+    <state x="489" y="85" width="528" height="559" key="#com.intellij.ide.util.MemberChooser/0.0.1366.735@0.0.1366.735" />
+    <state x="299" y="62" width="763" height="611" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" />
+    <state x="299" y="62" width="763" height="611" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.735@0.0.1366.735" />
+    <state x="528" y="258" width="306" height="213" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" />
+    <state x="528" y="258" width="306" height="213" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.735@0.0.1366.735" />
+    <state x="278" y="30" width="806" height="674" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" />
+    <state x="278" y="30" width="806" height="674" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1366.735@0.0.1366.735" />
+    <state x="414" y="116" width="530" height="496" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
+    <state x="414" y="116" width="530" height="496" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.735@0.0.1366.735" />
+    <state x="382" y="8" width="598" height="719" key="#mysql-connector-java-8.0.18.jar" />
+    <state x="382" y="8" width="598" height="719" key="#mysql-connector-java-8.0.18.jar/0.0.1366.735@0.0.1366.735" />
+    <state x="424" y="226" width="510" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" />
+    <state x="424" y="226" width="510" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.735@0.0.1366.735" />
+    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2" />
+    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2/0.0.1366.735@0.0.1366.735" />
+    <state x="466" y="127" width="663" height="481" key="FileChooserDialogImpl" />
+    <state x="466" y="127" width="663" height="481" key="FileChooserDialogImpl/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.0.bottom" />
+    <state width="1071" height="186" key="GridCell.Tab.0.bottom/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.0.center" />
+    <state width="1071" height="186" key="GridCell.Tab.0.center/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.0.left" />
+    <state width="1071" height="186" key="GridCell.Tab.0.left/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.0.right" />
+    <state width="1071" height="186" key="GridCell.Tab.0.right/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.1.bottom" />
+    <state width="1071" height="186" key="GridCell.Tab.1.bottom/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.1.center" />
+    <state width="1071" height="186" key="GridCell.Tab.1.center/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.1.left" />
+    <state width="1071" height="186" key="GridCell.Tab.1.left/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.1.right" />
+    <state width="1071" height="186" key="GridCell.Tab.1.right/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.2.bottom" />
+    <state width="1071" height="186" key="GridCell.Tab.2.bottom/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.2.center" />
+    <state width="1071" height="186" key="GridCell.Tab.2.center/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.2.left" />
+    <state width="1071" height="186" key="GridCell.Tab.2.left/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.2.right" />
+    <state width="1071" height="186" key="GridCell.Tab.2.right/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.3.bottom" />
+    <state width="1071" height="186" key="GridCell.Tab.3.bottom/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.3.center" />
+    <state width="1071" height="186" key="GridCell.Tab.3.center/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.3.left" />
+    <state width="1071" height="186" key="GridCell.Tab.3.left/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.3.right" />
+    <state width="1071" height="186" key="GridCell.Tab.3.right/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.4.bottom" />
+    <state width="1071" height="186" key="GridCell.Tab.4.bottom/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.4.center" />
+    <state width="1071" height="186" key="GridCell.Tab.4.center/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.4.left" />
+    <state width="1071" height="186" key="GridCell.Tab.4.left/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.4.right" />
+    <state width="1071" height="186" key="GridCell.Tab.4.right/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.5.bottom" />
+    <state width="1071" height="186" key="GridCell.Tab.5.bottom/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.5.center" />
+    <state width="1071" height="186" key="GridCell.Tab.5.center/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.5.left" />
+    <state width="1071" height="186" key="GridCell.Tab.5.left/0.0.1366.735@0.0.1366.735" />
+    <state width="1071" height="186" key="GridCell.Tab.5.right" />
+    <state width="1071" height="186" key="GridCell.Tab.5.right/0.0.1366.735@0.0.1366.735" />
+    <state x="216" y="27" width="930" height="681" key="Maven.ArtifactSearchDialog" />
+    <state x="216" y="27" width="930" height="681" key="Maven.ArtifactSearchDialog/0.0.1366.735@0.0.1366.735" />
+    <state x="441" y="93" width="480" height="548" key="RollbackChangesDialog" />
+    <state x="441" y="93" width="480" height="548" key="RollbackChangesDialog/0.0.1366.735@0.0.1366.735" />
+    <state x="179" y="0" width="1030" height="732" key="SettingsEditor" />
+    <state x="179" y="0" width="1030" height="732" key="SettingsEditor/0.0.1366.735@0.0.1366.735" />
+    <state x="273" y="102" width="806" height="525" key="Vcs.Push.Dialog.v2" />
+    <state x="273" y="102" width="806" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.735@0.0.1366.735" />
+    <state x="569" y="258" width="344" height="228" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" />
+    <state x="569" y="258" width="344" height="228" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.735@0.0.1366.735" />
+    <state x="455" y="200" width="451" height="338" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" />
+    <state x="455" y="200" width="451" height="338" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.735@0.0.1366.735" />
+    <state x="395" y="14" width="572" height="707" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" />
+    <state x="395" y="14" width="572" height="707" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.735@0.0.1366.735" />
+    <state x="536" y="135" width="289" height="465" key="com.intellij.database.view.ui.DbObjectDialog" />
+    <state x="536" y="135" width="289" height="465" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1366.735@0.0.1366.735" />
+    <state x="97" y="100" width="1172" height="538" key="com.intellij.dvcs.ui.CompareBranchesDialog" />
+    <state x="97" y="100" width="1172" height="538" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1366.735@0.0.1366.735" />
+    <state x="362" y="196" key="com.intellij.ide.util.TipDialog" />
+    <state x="362" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.735@0.0.1366.735" />
+    <state x="367" y="262" width="650" height="218" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" />
+    <state x="367" y="262" width="650" height="218" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.735@0.0.1366.735" />
+    <state x="469" y="289" width="427" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" />
+    <state x="469" y="289" width="427" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.735@0.0.1366.735" />
+    <state x="445" y="83" width="468" height="563" key="git4idea.branch.GitSmartOperationDialog" />
+    <state x="445" y="83" width="468" height="563" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.735@0.0.1366.735" />
+    <state x="10" y="67" width="1341" height="600" key="new project wizard" />
+    <state x="10" y="67" width="1341" height="600" key="new project wizard/0.0.1366.735@0.0.1366.735" />
+    <state x="387" y="0" width="588" height="732" key="refactoring.ChangeSignatureDialog" />
+    <state x="387" y="0" width="588" height="732" key="refactoring.ChangeSignatureDialog/0.0.1366.735@0.0.1366.735" />
+    <state x="342" y="161" width="672" height="677" key="run.anything.popup" />
+    <state x="342" y="161" width="672" height="677" key="run.anything.popup/0.0.1366.735@0.0.1366.735" />
+    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup" />
+    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup/0.0.1366.735@0.0.1366.735" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/view_project.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="139" column="17" lean-forward="true" selection-start-line="103" selection-start-column="8" selection-end-line="139" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/projectList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/HomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f6960f40-7f88-4f9c-b3f2-e4ee5002663b/schema/hottracker/table/project">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/projectList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/HomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="79" column="59" lean-forward="true" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-277">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-277">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/dao/DatabaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view_project.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-563">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/dbCon/DbManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Milestone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

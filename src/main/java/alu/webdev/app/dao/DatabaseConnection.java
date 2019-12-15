@@ -11,9 +11,9 @@ public class DatabaseConnection {
     {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
-        String dbURL = "jdbc:mysql://localhost:3306/WebDev";
+        String dbURL = "jdbc:mysql://localhost:3306/HotTracker";
         String dbUsername = "root";
-        String dbPassword = "2011butterfly";
+        String dbPassword = null;
         Connection con = DriverManager.getConnection(dbURL, dbUsername, dbPassword);
         return  con;
 
