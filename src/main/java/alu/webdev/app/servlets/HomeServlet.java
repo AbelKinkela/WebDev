@@ -3,6 +3,7 @@ package alu.webdev.app.servlets;
 import alu.webdev.app.dao.DatabaseConnection;
 import alu.webdev.app.entities.Dashboard;
 import alu.webdev.app.entities.Milestone;
+import alu.webdev.app.entities.Project;
 import alu.webdev.app.entities.Status;
 
 import javax.servlet.RequestDispatcher;
@@ -11,9 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.Date;
-import java.sql.PreparedStatement;
+import java.sql.*;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.Period;
@@ -21,7 +20,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 public class HomeServlet extends HttpServlet {
-    Dashboard dashboard = new Dashboard();
     ArrayList<Milestone> milestones =new ArrayList<>();
     //Date aDate = new Date();
     SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
@@ -33,7 +31,7 @@ public class HomeServlet extends HttpServlet {
         String endDate = request.getParameter("endDate");
         String description = request.getParameter("description");
         String milestones_string = request.getParameter("milestones");
-
+/*
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/d/yyyy");
         //convert String to LocalDate
@@ -44,7 +42,7 @@ public class HomeServlet extends HttpServlet {
 
         createMileStones(milestones_string);
 
-        dashboard.createProject(projectName, startDate_formatted, endDate_formatted, description, milestones);
+        dashboard.createProject(projectName, startDate_formatted, endDate_formatted, description, milestones);*/
         try {
             // Initialize the database
             Connection con = DatabaseConnection.initializeDatabase();
@@ -58,7 +56,7 @@ public class HomeServlet extends HttpServlet {
             st.setDate(3, Date.valueOf(endDate));
             st.setString(4, description);
             st.setString(5, milestones_string);
-            System.out.printf("here are the values I am trying to insert: %s, %s, %s, %S, %sS", projectName, startDate, endDate, description, milestones_string);
+            System.out.printf("values I am trying to insert: %s, %s, %s, %S, %sS", projectName, startDate, endDate, description, milestones_string);
             // Execute the insert command using executeUpdate()
             // to make changes in database
             st.executeUpdate();
@@ -71,8 +69,7 @@ public class HomeServlet extends HttpServlet {
             e.printStackTrace();
         }
 
-
-        //dashboard.createProject(name, completionPercentage, days, totalDuration);
+        doGet(request, response);
 
     }
     @Override
@@ -80,10 +77,40 @@ public class HomeServlet extends HttpServlet {
         // store data in User object and save User object in database
 
        // dashboard.createProject("Work on AADP Project", 2, 3,10);
-
         // set User object in request object and set URL
-       request.setAttribute("projects", dashboard.getProjects());
+        Dashboard dashboard = new Dashboard();
+        try {
+            // Initialize the database
+            Connection conn = DatabaseConnection.initializeDatabase();
+            Statement stmt = conn.createStatement();
+            ResultSet rs;
+            rs = stmt.executeQuery("SELECT * FROM PROJECT");
+            //loop through the resultset
+            while ( rs.next() ) {
+                String projectName = rs.getString("NAME");
+                Date start_date = rs.getDate("START_DATE");
+                Date end_date = rs.getDate("END_DATE");
+                String description = rs.getString("DESCRIPTION");
+                String milestones_string = rs.getString("MILESTONES");
 
+
+                createMileStones(milestones_string);
+                System.out.println("Record:");
+                dashboard.createProject(projectName, start_date.toLocalDate(), end_date.toLocalDate(), description, milestones);
+            }
+
+
+
+            conn.close();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
+/*        for (Project p : dashboard.getProjects()) {
+            System.out.println(p.getProjectName());
+        }*/
+       request.setAttribute("projects", dashboard.getProjects());
         getServletContext().getRequestDispatcher("/Dashboard.jsp").forward(request, response);
 
     }
@@ -92,6 +119,7 @@ public class HomeServlet extends HttpServlet {
     {
         String[] arrOfStr = str.split(",", -2);
         for (String a : arrOfStr) {
+            //System.out.println(a);
             milestones.add(new Milestone(a));
         }
     }

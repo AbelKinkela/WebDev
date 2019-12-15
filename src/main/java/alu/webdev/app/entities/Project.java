@@ -12,6 +12,7 @@ public class Project {
     private LocalDate endDate;
     private String description;
     private ArrayList<Milestone> milestones;
+    int counter =0;
 
     /**
      * @param projectName
@@ -24,10 +25,17 @@ public class Project {
         this.endDate = endDate;
         this.description = description;
         this.milestones = milestones;
+        System.out.println("Project created.."+counter);
+        counter++;
     }
 
     /**
+     * @param projectId
      * @param projectName
+     * @param startDate
+     * @param endDate
+     * @param description
+     * @param milestones
      */
     public Project(int projectId, String projectName, String projectStatus, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
         this.projectName = projectName;
@@ -39,12 +47,6 @@ public class Project {
         this.milestones = milestones;
     }
 
-    /**
-     *
-     */
-    public Project() {
-
-    }
 
     /**
      * @return

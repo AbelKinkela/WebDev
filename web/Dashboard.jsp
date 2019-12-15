@@ -40,7 +40,7 @@
     <section class="px-3 py-3 pt-md-5 pb-md-4 mx-auto dashboardHeader">
         <div id="popup" class="modal">
             <h2>Add new Project</h2>
-            <form action="/" method="post">
+            <form method="post">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Project name.." required>
 
@@ -53,7 +53,7 @@
                 <label for="milestones">Milestone</label><br> add each milestone separated by comma
                 <textarea id="milestones" name="milestones" required>Describe the project...</textarea>
 
-                <input type="submit" value="Create Project">
+                <input type="submit" value="Create Project" onclick="self.close()">
             </form>
 
 
