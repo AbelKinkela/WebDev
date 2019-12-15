@@ -79,13 +79,12 @@ public class HomeServlet extends HttpServlet {
                 String projectName = rs.getString("NAME");
                 Date start_date = rs.getDate("START_DATE");
                 Date end_date = rs.getDate("END_DATE");
-                String description = rs.getString("DESCRIPTION");
-                String milestones_string = rs.getString("MILESTONES");
+                //String description = rs.getString("DESCRIPTION");
+                //String milestones_string = rs.getString("MILESTONES");
 
-                createMileStones(milestones_string);
-                dashboard.createProject(projectID, projectName, start_date.toLocalDate(), end_date.toLocalDate(), description);
+                //createMileStones(milestones_string);
+                dashboard.createProject(projectID, projectName, start_date.toLocalDate(), end_date.toLocalDate());
             }
-
 
 
             conn.close();
@@ -100,11 +99,5 @@ public class HomeServlet extends HttpServlet {
 
     }
 
-    public void createMileStones(String str)
-    {
-        String[] arrOfStr = str.split(",", -2);
-        for (String a : arrOfStr) {
-            milestones.add(new Milestone(a.trim()));
-        }
-    }
+
 }

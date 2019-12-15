@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Dashboard {
 
     private ArrayList<Project> projects=new ArrayList<Project>();
-    int counter=0;
+
 
     public ArrayList<Project> getProjects() {
         return projects;
@@ -21,11 +21,10 @@ public class Dashboard {
     }
 
 
-    public void createProject(int projectID, String projectName, LocalDate startDate, LocalDate endDate, String description) {
-        Project project = new Project(projectID, projectName, startDate, endDate, description);
+    public void createProject(int projectID, String projectName, LocalDate startDate, LocalDate endDate) {
+        Project project = new Project(projectID, projectName, startDate, endDate);
         projects.add(project);
-        System.out.println("Project added to dashboard.."+ counter);
-        counter ++;
+
     }
 
     public void deleteProject(Project project){
