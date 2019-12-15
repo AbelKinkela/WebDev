@@ -21,8 +21,8 @@ public class Dashboard {
     }
 
 
-    public void createProject(String projectName, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
-        Project project = new Project(projectName, startDate, endDate, description, milestones);
+    public void createProject(int projectID, String projectName, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
+        Project project = new Project(projectID, projectName, startDate, endDate, description, milestones);
         projects.add(project);
         System.out.println("Project added to dashboard.."+ counter);
         counter ++;

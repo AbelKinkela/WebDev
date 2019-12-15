@@ -58,7 +58,7 @@
 
 
 
-            <a href="#" rel="modal:close">Close</a>
+            <a href="" rel="modal:close">Close</a>
 
         </div>
         <div>
@@ -78,7 +78,8 @@
     if (projects != null && !projects.isEmpty()) {
         for (Project p : projects) {
             out.println("                      " +
-                    "<div class=\"col-sm-3\" >"+
+                    "<a class=\"col-sm-3 projectCard\" href=\"/project/" + p.getProjectId() +
+                    "\" >"+
                         "<div class=\"card mb-4 border-primary bg-white\" style=\"height:250px; border-radius: 30px; box-shadow: 0px 5px #2D9CDB;\" >\n" +
                             "<div>" +
                                 "<h4 class=\"my-0 font-weight-bold mt-3\">" + p.getProjectName() + "</h4>" +
@@ -92,7 +93,7 @@
                                 "</ul>"+
                             "</div>"+
                         "</div>"+
-                    "</div>"
+                    "</a>"
 
             );
         }

@@ -1,6 +1,4 @@
-body{
-    font-family: Roboto;
-}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -89,7 +87,7 @@ input[type=submit]:hover {
     overflow:scroll;
 }
 
-.project-card{
-    border: 4px solid #2D9CDB !important;
-
+.projectCard:link, .projectCard:visited{
+    text-decoration: none;
+    color: black;
 }

@@ -12,6 +12,15 @@
         <servlet-name>Home</servlet-name>
         <url-pattern></url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Project</servlet-name>
+        <servlet-class>alu.webdev.app.servlets.ProjectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Project</servlet-name>
+        <url-pattern>/project/*</url-pattern>
+    </servlet-mapping>
     <!-- Team servlet -->
     <servlet>
         <servlet-name>team</servlet-name>

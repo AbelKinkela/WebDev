@@ -37,9 +37,10 @@ public class Project {
      * @param description
      * @param milestones
      */
-    public Project(int projectId, String projectName, String projectStatus, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
+    public Project(int projectId, String projectName, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
+        this.projectId = projectId;
         this.projectName = projectName;
-        Status status = new Status(projectStatus);
+        //Status status = new Status(projectStatus);
         //this.projectStatus = status.getStatus();
         this.startDate = startDate;
         this.endDate = endDate;
