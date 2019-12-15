@@ -7,14 +7,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08eaf662-57ec-4d04-a6da-8e4d418401cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/Dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/Dashboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/HomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/Dashboard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/dao/DatabaseConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Dashboard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Milestone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Project.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/AboutServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/HelpServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/HomeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/ProjectServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/TeamServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/addProjectServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/draft.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/Scripts/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/about.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/help.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/images/Add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/styles/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/team.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/dao/DatabaseConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/ProjectServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/addProjectServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +301,7 @@
       <workItem from="1576415821273" duration="10187000" />
       <workItem from="1576432281012" duration="11814000" />
       <workItem from="1576445964439" duration="1523000" />
-      <workItem from="1576447497347" duration="278000" />
+      <workItem from="1576447497347" duration="561000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1 - Added code in the Dashboard.java for the logic of my Dashboard page.">
       <created>1575835869049</created>
@@ -352,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576444624640</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Commit 8 - Fixing the the milestone arraylist to enable queries from the view_project.jsp">
+      <created>1576447872438</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576447872438</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,17 +409,18 @@
     <MESSAGE value="Commit 5 - Designing ways to handles milestones and calculate the % of project completion" />
     <MESSAGE value="Commit 6 - Connection with the view_project.jsp made. Users can now click on a project to see project page details" />
     <MESSAGE value="Commit 7 - View_project page is now dinamic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 7 - View_project page is now dinamic" />
+    <MESSAGE value="Commit 8 - Fixing the the milestone arraylist to enable queries from the view_project.jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 8 - Fixing the the milestone arraylist to enable queries from the view_project.jsp" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="177" width="430" height="381" key="#BuildArtifactsBeforeRunChooser" timestamp="1576005780482">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="466" y="177" width="430" height="381" key="#BuildArtifactsBeforeRunChooser/0.0.1366.735@0.0.1366.735" timestamp="1576005780482" />
-    <state x="276" y="27" width="806" height="674" key="#Notifications" timestamp="1576262345148">
+    <state x="276" y="27" width="806" height="674" key="#Notifications" timestamp="1576447920696">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state x="276" y="27" width="806" height="674" key="#Notifications/0.0.1366.735@0.0.1366.735" timestamp="1576262345148" />
+    <state x="276" y="27" width="806" height="674" key="#Notifications/0.0.1366.735@0.0.1366.735" timestamp="1576447920696" />
     <state x="278" y="30" width="806" height="674" key="#Project_Structure" timestamp="1576426445501">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
@@ -432,10 +461,10 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="424" y="226" width="510" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.735@0.0.1366.735" timestamp="1576219332747" />
-    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2" timestamp="1576444620915">
+    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2" timestamp="1576447872243">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2/0.0.1366.735@0.0.1366.735" timestamp="1576444620915" />
+    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2/0.0.1366.735@0.0.1366.735" timestamp="1576447872243" />
     <state x="97" y="100" width="1172" height="538" key="DiffContextDialog" timestamp="1576447271572">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
@@ -576,10 +605,10 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="536" y="135" width="289" height="465" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1366.735@0.0.1366.735" timestamp="1576277223410" />
-    <state x="97" y="100" width="1172" height="538" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1576447775325">
+    <state x="97" y="100" width="1172" height="538" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1576448057659">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state x="97" y="100" width="1172" height="538" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1366.735@0.0.1366.735" timestamp="1576447775325" />
+    <state x="97" y="100" width="1172" height="538" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1366.735@0.0.1366.735" timestamp="1576448057659" />
     <state x="362" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1576445967779">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
