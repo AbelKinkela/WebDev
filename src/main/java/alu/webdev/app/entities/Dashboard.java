@@ -1,5 +1,6 @@
 package alu.webdev.app.entities;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 /**
@@ -8,7 +9,8 @@ import java.util.ArrayList;
  */
 public class Dashboard {
 
-    private ArrayList<Project> projects;
+    private ArrayList<Project> projects=new ArrayList<Project>();
+    int counter=0;
 
     public ArrayList<Project> getProjects() {
         return projects;
@@ -19,12 +21,11 @@ public class Dashboard {
     }
 
 
-
-
-    public void createProject(){
-        projects = new ArrayList<Project>();
-        Project project = new Project();
+    public void createProject(String projectName, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
+        Project project = new Project(projectName, startDate, endDate, description, milestones);
         projects.add(project);
+        System.out.println("Project added to dashboard.."+ counter);
+        counter ++;
     }
 
     public void deleteProject(Project project){

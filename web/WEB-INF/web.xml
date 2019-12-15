@@ -23,6 +23,17 @@
         <url-pattern>/team</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>dashboard</servlet-name>
+        <servlet-class>alu.webdev.app.servlets.HomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dashboard</servlet-name>
+        <url-pattern>/dashboard</url-pattern>
+    </servlet-mapping>
+
+
+
     <!-- About servlet -->
     <servlet>
         <servlet-name>about</servlet-name>
