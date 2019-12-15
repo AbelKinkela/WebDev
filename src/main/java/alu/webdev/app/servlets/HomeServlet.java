@@ -75,16 +75,16 @@ public class HomeServlet extends HttpServlet {
             rs = stmt.executeQuery("SELECT * FROM PROJECT");
             //loop through the resultset
             while ( rs.next() ) {
+                int projectID = rs.getInt("ID");
                 String projectName = rs.getString("NAME");
                 Date start_date = rs.getDate("START_DATE");
                 Date end_date = rs.getDate("END_DATE");
                 String description = rs.getString("DESCRIPTION");
                 String milestones_string = rs.getString("MILESTONES");
 
-
                 createMileStones(milestones_string);
                 System.out.println("Record:");
-                dashboard.createProject(projectName, start_date.toLocalDate(), end_date.toLocalDate(), description, milestones);
+                dashboard.createProject(projectID, projectName, start_date.toLocalDate(), end_date.toLocalDate(), description, milestones);
             }
 
 
