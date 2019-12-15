@@ -80,6 +80,7 @@
                         );
                     }
                 } else out.println("<p>There are no milestones yet!</p>");
+
             %>
             </table>
         </div>

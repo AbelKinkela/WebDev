@@ -6,14 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08eaf662-57ec-4d04-a6da-8e4d418401cf" name="Default Changelist" comment="dynamically fill fields of view_project.jsp with items from ProjectServlet">
+    <list default="true" id="08eaf662-57ec-4d04-a6da-8e4d418401cf" name="Default Changelist" comment="works on loop to print Milestones in the view_project.jsp file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/Dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/Dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/HomeServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/ProjectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/ProjectServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/view_project.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/view_project.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/HomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/ProjectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/ProjectServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/view_project.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view_project.jsp" afterDir="false" />
     </list>
@@ -67,11 +64,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="view_project.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="view_project.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/view_project.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="213">
+              <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -79,7 +76,7 @@
       <file leaf-file-name="Dashboard.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Dashboard.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="162">
               <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="58" />
             </state>
           </provider>
@@ -103,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectServlet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProjectServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-442">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="162">
+              <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,6 +164,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Sumaya Salihs &lt;myayasaleehs@gmail.com&gt;" />
         <option value="Abel Makanzu Kinkela &lt;akinkela16@alustudent.com&gt;" />
       </list>
     </option>
@@ -190,6 +188,7 @@
         <option value="$PROJECT_DIR$/web/Dashboard.jsp" />
         <option value="$PROJECT_DIR$/web/views/javascript/addProject.js" />
         <option value="$PROJECT_DIR$/web/view_project.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java" />
       </list>
     </option>
   </component>
@@ -523,7 +522,7 @@
       <workItem from="1576432281012" duration="4857000" />
       <workItem from="1576438003471" duration="3519000" />
       <workItem from="1576444851944" duration="1933000" />
-      <workItem from="1576448314183" duration="3743000" />
+      <workItem from="1576448314183" duration="4851000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1 - Added code in the Dashboard.java for the logic of my Dashboard page.">
       <created>1575835869049</created>
@@ -588,11 +587,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576446349364</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="works on loop to print Milestones in the view_project.jsp file">
+      <created>1576452335805</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576452335805</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9199000" />
+    <option name="totallyTimeSpent" value="10307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -651,7 +657,8 @@
     <MESSAGE value="Commit 6 - Projects created by the user can now be seen in the dashboard." />
     <MESSAGE value="Commit 5 - Designing ways to handles milestones and calculate the % of project completion" />
     <MESSAGE value="dynamically fill fields of view_project.jsp with items from ProjectServlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="dynamically fill fields of view_project.jsp with items from ProjectServlet" />
+    <MESSAGE value="works on loop to print Milestones in the view_project.jsp file" />
+    <option name="LAST_COMMIT_MESSAGE" value="works on loop to print Milestones in the view_project.jsp file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="177" width="430" height="381" key="#BuildArtifactsBeforeRunChooser" />
@@ -1081,16 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/views/javascript/addProject.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1107,15 +1104,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Dashboard.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="162">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/view_project.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="213">
+          <caret line="71" column="14" lean-forward="true" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/ProjectServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
