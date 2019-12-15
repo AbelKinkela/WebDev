@@ -10,7 +10,7 @@ import java.util.List;
 
 public interface ProjectDao {
 
-    void insertProject(Project project) throws SQLException;
+    //void insertProject(Project project) throws SQLException;
 
     Project selectProject(long projectId);
 

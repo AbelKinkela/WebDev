@@ -1,6 +1,4 @@
-
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +12,7 @@
   <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
   <!-- Main css -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 
