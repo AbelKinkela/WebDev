@@ -86,7 +86,7 @@
                             "</div>" +
                             "<div class=\"card-body\">\n" +
                                 "<p>Day " + p.getCurrentProjectDuration() + " of " + p.getProjectTotalDays() + " days </p>" +
-                                "<h4 class=\"card-title pricing-card-title\">" +"50"+ "<small class=\"text-muted\"> %</small></h4>" +
+                                "<h4 class=\"card-title pricing-card-title\">" +p.getCompletionPercentage() + "<small class=\"text-muted\"> %</small></h4>" +
                                 "<h5>Complete</h5>"+
                                 "<ul class=\"list-unstyled mt-3 mb-4\">" +
                                     "<li> </li>" +
