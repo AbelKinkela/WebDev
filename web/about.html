@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>
+        About Us
+    </title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Style inputs */
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        /* Style the container/contact section */
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        /* Create two columns that float next to eachother */
+        .column {
+            float: left;
+            width: 50%;
+            margin-top: 6px;
+            padding: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column, input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+<button onclick="goBack()">Go Back</button>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+<div class="container">
+    <div class="row">
+        <div class="column">
+            <div style="text-align:center">
+                <h2 >About Us</h2>
+                <p>Fast, intuitive project management and planning for teams. View and share project timelines and plans.</p>
+                <br>
+                <p>Hot-Tracker's uniquely visual approach means everyone sees the big picture, instantly. Zoom in and out by date or detail, to see as much or as little as you need.</p>
+                <p>The amazingly easy to use web interface means that keeping your plan up-to-date takes seconds, not hours. Just click and drag, then export professional-looking plans for use in your documents and presentations at the click of a button. It's that simple.</p>
+                <p>Track and report actions, and get a complete overview of your progress using Hot-Tracker's unique timeline view. More powerful than Gantt charts and more manageable than to do lists or kanban boards. Hot-Tracker gives you all of those and more, and the basic edition is free for up to 3 plans.</p>
+                <p>Don't get buried in to do lists - quickly build a simple, professional project timeline. From strategic planning to goal management, Hot-Tracker gives you project and portfolio management, without the hassle. From small teams to global organisations, Hot-Tracker has been helping to run businesses around the world for more than 5 years- you will be joining some of the world's best business leaders and managers.</p>
+                <ul style="text-align:left">
+                    <li>Unlimited sharing - Invite as many team members as you need to.</li>
+                    <li>Visual timeline with drag and drop support for mouse or touch-based devices.</li>
+                    <li>Powerful action tracking and task management.</li>
+                    <li>Reporting and exports, keep control of your data.</li>
+                    <li>Works on anything from a mobile device to a giant display screen.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="column">
+            <div style="text-align:center">
+                <h2>Contact Us</h2>
+                <p>Swing by for a cup of coffee, or leave us a message:</p>
+            </div>
+            <form action="/action_page.php">
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your email address..">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Angola</option>
+                    <option value="canada">Egypt</option>
+                    <option value="usa">Ghana</option>
+                    <option value="canada">Mauritius</option>
+                    <option value="usa">Rwanda</option>
+                    <option value="canada">Scotland</option>
+                    <option value="usa">Tanzania</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>
