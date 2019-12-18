@@ -1,6 +1,7 @@
 package alu.webdev.app.servlets;
 
 import alu.webdev.app.dao.DatabaseConnection;
+import alu.webdev.app.dbCon.DbManager;
 import alu.webdev.app.entities.Milestone;
 import alu.webdev.app.entities.Project;
 
@@ -9,10 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.Date;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 
 public class ProjectServlet extends HttpServlet {
@@ -20,10 +18,10 @@ public class ProjectServlet extends HttpServlet {
 
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        doGet(request, response);
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void listProject(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Project project = new Project();
 
         String action = request.getRequestURI();
@@ -57,9 +55,6 @@ public class ProjectServlet extends HttpServlet {
             e.printStackTrace();
         }
 
-/*        for (Project p : dashboard.getProjects()) {
-            System.out.println(p.getProjectName());
-        }*/
         request.setAttribute("project", project);
 
         getServletContext().getRequestDispatcher("/view_project.jsp").forward(request, response);
@@ -75,4 +70,36 @@ public class ProjectServlet extends HttpServlet {
         }
         return milestones;
     }
+
+
+    private void deleteTodo(HttpServletRequest request, HttpServletResponse response) throws SQLException, IOException {
+        int id = Integer.parseInt(request.getParameter("id"));
+        boolean rowDeleted;
+        try (Connection connection = DbManager.getConnection();
+             PreparedStatement statement = connection.prepareStatement("delete from PROJECT where id = ?;");) {
+            statement.setInt(1, id);
+            rowDeleted = statement.executeUpdate() > 0;
+        }
+        response.sendRedirect("/listProject");
+    }
+
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        String action = request.getServletPath();
+
+        try {
+            switch (action) {
+                case "/delete":
+                    deleteTodo(request, response);
+                    break;
+                case "/listProject":
+                    listProject(request, response);
+                    break;
+            }
+        } catch (SQLException ex) {
+            throw new ServletException(ex);
+        }
+    }
+
 }

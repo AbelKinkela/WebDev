@@ -22,6 +22,10 @@
     <meta name="theme-color" content="#563d7c">
 
 
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="/views/styles/styles.css">
     <link href="pricing.css" rel="stylesheet">
@@ -46,31 +50,39 @@
             <p>
                 ${project.description}
             </p>
+
+
+            <a href="#" class="btn btn-primary a-btn-slide-text" style="margin-top: 50px">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                <span><strong>Delete</strong></span>
+            </a>
+
         </div>
-
-
-
-
 
 
         <div class="col-sm-6">
 
             <h2>Milestones</h2>
             <table class="table table-borderless">
-            <%
-                ArrayList<Milestone> milestones = (ArrayList<Milestone>) ((Project) request.getAttribute("project")).getMilestones();
-                if (milestones != null && !milestones.isEmpty()) {
-                    for (Milestone milestone : milestones) {
-                        out.println("                      " +
-                                "<tr>" +
-                                "<td scope=\"col\">"+milestone.getName()+"</td>" +
-                                "</tr>"
-                        );
-                    }
-                } else out.println("<p>There are no milestones yet!</p>");
+                <%
+                    ArrayList<Milestone> milestones = (ArrayList<Milestone>) ((Project) request.getAttribute("project")).getMilestones();
+                    if (milestones != null && !milestones.isEmpty()) {
+                        for (Milestone milestone : milestones) {
+                            out.println("                      " +
+                                    "<tr>" +
+                                    "<td scope=\"col\">" + milestone.getName() + "</td>" +
+                                    "</tr>"
+                            );
+                        }
+                    } else out.println("<p>There are no milestones yet!</p>");
 
-            %>
+                %>
             </table>
+
+            <a href="#" class="btn btn-primary a-btn-slide-text" style="margin-top: 60px;">
+                <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                <span><strong>Edit</strong></span>
+            </a>
         </div>
     </div>
 
