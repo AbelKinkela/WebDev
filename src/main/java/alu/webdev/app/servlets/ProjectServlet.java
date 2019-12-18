@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 public class ProjectServlet extends HttpServlet {
 
-    ArrayList<Milestone> milestones=new ArrayList<>();
+
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -45,12 +45,13 @@ public class ProjectServlet extends HttpServlet {
                 Date end_date = rs.getDate("END_DATE");
                 String description = rs.getString("DESCRIPTION");
                 String milestones_string = rs.getString("MILESTONES");
-                createMileStones(milestones_string);
-                //System.out.println("Record:");
-                project = new Project(projectID, projectName, start_date.toLocalDate(), end_date.toLocalDate(), description, milestones);
+                //createMileStones(milestones_string);
+                //System.out.println("Record:");[
+                project = new Project(projectID, projectName, start_date.toLocalDate(), end_date.toLocalDate(), description, createMileStones(milestones_string));
 
             }
             conn.close();
+
         }
         catch (Exception e) {
             e.printStackTrace();
@@ -60,15 +61,18 @@ public class ProjectServlet extends HttpServlet {
             System.out.println(p.getProjectName());
         }*/
         request.setAttribute("project", project);
+
         getServletContext().getRequestDispatcher("/view_project.jsp").forward(request, response);
 
     }
 
-    public void createMileStones(String str)
+    public ArrayList<Milestone> createMileStones(String str)
     {
+        ArrayList<Milestone> milestones=new ArrayList<>();
         String[] arrOfStr = str.split(",", -2);
         for (String a : arrOfStr) {
             milestones.add(new Milestone(a.trim()));
         }
+        return milestones;
     }
 }
