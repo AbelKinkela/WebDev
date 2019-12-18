@@ -21,8 +21,8 @@ public class Dashboard {
     }
 
 
-    public void createProject(int projectID, String projectName, LocalDate startDate, LocalDate endDate) {
-        Project project = new Project(projectID, projectName, startDate, endDate);
+    public void createProject(int projectID, String projectName, LocalDate startDate, LocalDate endDate, int completionPercentage) {
+        Project project = new Project(projectID, projectName, startDate, endDate, completionPercentage);
         projects.add(project);
 
     }

@@ -79,11 +79,11 @@ public class HomeServlet extends HttpServlet {
                 String projectName = rs.getString("NAME");
                 Date start_date = rs.getDate("START_DATE");
                 Date end_date = rs.getDate("END_DATE");
-                //String description = rs.getString("DESCRIPTION");
+                int completionPercentage = rs.getInt("COMPLETION_PERCENT");
                 //String milestones_string = rs.getString("MILESTONES");
 
                 //createMileStones(milestones_string);
-                dashboard.createProject(projectID, projectName, start_date.toLocalDate(), end_date.toLocalDate());
+                dashboard.createProject(projectID, projectName, start_date.toLocalDate(), end_date.toLocalDate(), completionPercentage);
             }
 
 

@@ -7,13 +7,14 @@ import java.time.LocalDate;
 public class Project {
     private int projectId;
     private String projectName;
-    //private String projectStatus;
+    private int completionPercentage;
     private LocalDate startDate;
     private LocalDate endDate;
     private String description;
     private ArrayList<Milestone> milestones;
 
 
+    public Project() {}
     public Project(int projectId, String projectName, LocalDate startDate, LocalDate endDate, String description, ArrayList<Milestone> milestones) {
         this.projectId = projectId;
         this.projectName = projectName;
@@ -21,6 +22,7 @@ public class Project {
         this.endDate = endDate;
         this.description = description;
         this.milestones = milestones;
+        this.completionPercentage =0;
     }
 
     public Project(int projectId, String projectName, LocalDate startDate, LocalDate endDate, String description) {
@@ -37,18 +39,17 @@ public class Project {
         this.endDate = endDate;
         this.description = description;
         this.milestones = milestones;
+        this.completionPercentage =0;
     }
 
-    public Project() {
-
-    }
-
-    public Project(int projectId, String projectName, LocalDate startDate, LocalDate endDate) {
+    public Project(int projectId, String projectName, LocalDate startDate, LocalDate endDate, int completionPercentage) {
         this.projectId = projectId;
         this.projectName = projectName;
         this.startDate = startDate;
         this.endDate = endDate;
+        this.completionPercentage =completionPercentage;
     }
+
 
     /**
      * @return
@@ -125,6 +126,13 @@ public class Project {
         return milestones;
     }
 
+    public int getCompletionPercentage() {
+        return completionPercentage;
+    }
+
+    public void setCompletionPercentage(int completionPercentage) {
+        this.completionPercentage = completionPercentage;
+    }
 
     public void setMilestones(ArrayList<Milestone> milestones) {
         this.milestones = milestones;
