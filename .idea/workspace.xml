@@ -6,8 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08eaf662-57ec-4d04-a6da-8e4d418401cf" name="Default Changelist" comment="Commit 11.3 - Adjustments to the dashboard.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="08eaf662-57ec-4d04-a6da-8e4d418401cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,6 +286,7 @@
       <workItem from="1576653123884" duration="5718000" />
       <workItem from="1576660956896" duration="2947000" />
       <workItem from="1576666777625" duration="293000" />
+      <workItem from="1576667075093" duration="672000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1 - Added code in the Dashboard.java for the logic of my Dashboard page.">
       <created>1575835869049</created>
@@ -406,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576667011710</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Commit 11.3 - Adjustments to the dashboard.">
+      <created>1576667163444</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1576667163444</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,10 +503,10 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="424" y="226" width="510" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.735@0.0.1366.735" timestamp="1576219332747" />
-    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2" timestamp="1576667060937">
+    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2" timestamp="1576667163327">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2/0.0.1366.735@0.0.1366.735" timestamp="1576667060937" />
+    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2/0.0.1366.735@0.0.1366.735" timestamp="1576667163327" />
     <state x="97" y="100" width="1172" height="538" key="DiffContextDialog" timestamp="1576447271572">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
@@ -679,6 +687,10 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="445" y="83" width="468" height="563" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.735@0.0.1366.735" timestamp="1576667142358" />
+    <state x="458" y="272" width="446" height="190" key="git4idea.ui.GitStashDialog" timestamp="1576667257037">
+      <screen x="0" y="0" width="1366" height="735" />
+    </state>
+    <state x="458" y="272" width="446" height="190" key="git4idea.ui.GitStashDialog/0.0.1366.735@0.0.1366.735" timestamp="1576667257037" />
     <state x="10" y="67" width="1341" height="600" key="new project wizard" timestamp="1576352479505">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
