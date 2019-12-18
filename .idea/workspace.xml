@@ -6,41 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08eaf662-57ec-4d04-a6da-8e4d418401cf" name="Default Changelist" comment="Commit 10 - Added completionPercentage var to Project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/LandingServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/images/fb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/images/ld.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/images/logout.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/images/profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/ist.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJECT SQL.sql" beforeDir="false" afterPath="$PROJECT_DIR$/PROJECT SQL.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/Dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/Dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Dashboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/entities/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/HomeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/classes/alu/webdev/app/servlets/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/draft.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebDev_war_exploded/views/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/entities/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/alu/webdev/app/servlets/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/Dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/Dashboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/entities/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/HomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/HomeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/alu/webdev/app/servlets/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/draft.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/signup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/landing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/styles/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="08eaf662-57ec-4d04-a6da-8e4d418401cf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -321,7 +287,7 @@
       <workItem from="1576581934032" duration="784000" />
       <workItem from="1576649730302" duration="1645000" />
       <workItem from="1576653123884" duration="5718000" />
-      <workItem from="1576660956896" duration="2564000" />
+      <workItem from="1576660956896" duration="2873000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1 - Added code in the Dashboard.java for the logic of my Dashboard page.">
       <created>1575835869049</created>
@@ -414,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576455185852</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Commit 11 - Adjustments to the dashboard">
+      <created>1576666614591</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1576666614592</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +421,8 @@
     <MESSAGE value="Commit 8 - Fixing the the milestone arraylist to enable queries from the view_project.jsp" />
     <MESSAGE value="Commit 9 - Fixing the the milestone arraylist to enable queries from the view_project.jsp" />
     <MESSAGE value="Commit 10 - Added completionPercentage var to Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 10 - Added completionPercentage var to Project" />
+    <MESSAGE value="Commit 11 - Adjustments to the dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 11 - Adjustments to the dashboard" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="177" width="430" height="381" key="#BuildArtifactsBeforeRunChooser" timestamp="1576005780482">
@@ -499,10 +473,10 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="424" y="226" width="510" height="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.735@0.0.1366.735" timestamp="1576219332747" />
-    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2" timestamp="1576666383436">
+    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2" timestamp="1576666613953">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2/0.0.1366.735@0.0.1366.735" timestamp="1576666383436" />
+    <state x="184" y="0" width="946" height="732" key="CommitChangelistDialog2/0.0.1366.735@0.0.1366.735" timestamp="1576666613953" />
     <state x="97" y="100" width="1172" height="538" key="DiffContextDialog" timestamp="1576447271572">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
@@ -639,10 +613,10 @@
       <screen x="0" y="0" width="1366" height="735" />
     </state>
     <state x="179" y="0" width="1030" height="732" key="SettingsEditor/0.0.1366.735@0.0.1366.735" timestamp="1576450347826" />
-    <state x="273" y="102" width="806" height="525" key="Vcs.Push.Dialog.v2" timestamp="1576455199513">
+    <state x="273" y="102" width="806" height="525" key="Vcs.Push.Dialog.v2" timestamp="1576666630823">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
-    <state x="273" y="102" width="806" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.735@0.0.1366.735" timestamp="1576455199513" />
+    <state x="273" y="102" width="806" height="525" key="Vcs.Push.Dialog.v2/0.0.1366.735@0.0.1366.735" timestamp="1576666630823" />
     <state x="569" y="258" width="344" height="228" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1576361161754">
       <screen x="0" y="0" width="1366" height="735" />
     </state>
