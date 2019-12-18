@@ -13,7 +13,6 @@ public class UserServlet extends HttpServlet {
 
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // TODO Auto-generated method stub
         String name = request.getParameter("name");
         String password = request.getParameter("password");
         String email = request.getParameter("email");
