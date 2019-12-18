@@ -51,7 +51,6 @@
     </servlet-mapping>
 
 
-
     <!-- About servlet -->
     <servlet>
         <servlet-name>about</servlet-name>
