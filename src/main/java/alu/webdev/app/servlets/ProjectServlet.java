@@ -46,11 +46,12 @@ public class ProjectServlet extends HttpServlet {
                 String description = rs.getString("DESCRIPTION");
                 String milestones_string = rs.getString("MILESTONES");
                 //createMileStones(milestones_string);
-                //System.out.println("Record:");
+                //System.out.println("Record:");[
                 project = new Project(projectID, projectName, start_date.toLocalDate(), end_date.toLocalDate(), description, createMileStones(milestones_string));
 
             }
             conn.close();
+
         }
         catch (Exception e) {
             e.printStackTrace();
