@@ -6,12 +6,31 @@
 
     <servlet>
         <servlet-name>Home</servlet-name>
-        <servlet-class>alu.webdev.app.servlets.HomeServlet</servlet-class>
+        <servlet-class>alu.webdev.app.servlets.LandingServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Home</servlet-name>
         <url-pattern></url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SignUp</servlet-name>
+        <servlet-class>alu.webdev.app.servlets.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignUp</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>alu.webdev.app.servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
 
     <servlet>
         <servlet-name>Project</servlet-name>

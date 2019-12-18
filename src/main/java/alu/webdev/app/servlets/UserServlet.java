@@ -26,9 +26,16 @@ public class UserServlet extends HttpServlet {
         }
         else
         {
-            RequestDispatcher req = request.getRequestDispatcher("login.jsp.jsp");
+            RequestDispatcher req = request.getRequestDispatcher("dashboard.jsp");
             req.forward(request, response);
         }
     }
+
+
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        getServletContext().getRequestDispatcher("/signup.jsp").forward(request, response);
+    }
+
 
 }

@@ -15,8 +15,8 @@ public class LoginServlet extends HttpServlet{
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String email = request.getParameter("email");
-        String password = request.getParameter("password");
+        String email = request.getParameter("your_name");
+        String password = request.getParameter("your_pass");
         if(email.isEmpty() || password.isEmpty() )
         {
             RequestDispatcher req = request.getRequestDispatcher("login.jsp");
@@ -29,7 +29,10 @@ public class LoginServlet extends HttpServlet{
         }
     }
 
-
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        getServletContext().getRequestDispatcher("/login.jsp").forward(request, response);
+    }
 }
 
 

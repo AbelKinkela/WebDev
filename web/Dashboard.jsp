@@ -29,36 +29,34 @@
         <img class="my-0 mr-md-auto" src="views/images/logo.png" height="45" alt="HotTracker">
         <nav class="my-2 my-md-0 mr-md-3 topNavMenu">
             <a href="${pageContext.request.contextPath}/">Dashboard</a>
-            <a href="${pageContext.request.contextPath}/team">Team</a>
             <a href="${pageContext.request.contextPath}/about">About</a>
             <a href="${pageContext.request.contextPath}/help">Help</a>
         </nav>
-        <a class="btn btn-primary" href="#">Sign up</a>
+        <a class="btn btn-primary" href="#"><img src="views/images/profile.jpg" height="30"></a>
     </div>
 </header>
 <main>
     <section class="px-3 py-3 pt-md-5 pb-md-4 mx-auto dashboardHeader">
         <div id="popup" class="modal">
-            <h2>Add new Project</h2>
+            <h4>Add new project</h4>
             <form method="post">
-                <label for="name">Name</label>
+                <label for="name" maxlength="50">Name</label>
                 <input type="text" id="name" name="name" placeholder="Project name.." maxlength="25" required>
 
                 <label for="startDate">Start Date</label>
                 <input type="date" id="startDate" name="startDate" required>
                 <label for="endDate">End Date</label>
-                <input type="date" id="endDate" name="endDate" required>
-                <label for="description">End Date</label>
-                <textarea id="description" name="description" required>Describe the project...</textarea>
-                <label for="milestones">Milestone</label><br> add each milestone separated by comma
-                <textarea id="milestones" name="milestones" required>Describe the project...</textarea>
-
-                <input type="submit" value="Create Project" onclick="self.close()">
+                <input type="date" id="endDate" name="endDate" required><br>
+                <label for="description">Description</label>
+                <textarea id="description" name="description" maxlength="1000" required>Describe the project...</textarea>
+                <label for="milestones">Milestone <br>Add each milestone separated by comma </label>
+                <textarea id="milestones" name="milestones" maxlength="500" required>Project Milestones..</textarea><br>
+                <input type="submit" value="Create Project" style="width:150px" onclick="self.close()">
             </form>
 
 
 
-            <a href="" rel="modal:close">Close</a>
+            <a href="" rel="modal:close">Cancel</a>
 
         </div>
         <div>

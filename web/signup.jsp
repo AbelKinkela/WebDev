@@ -1,5 +1,4 @@
 
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!DOCTYPE html>
@@ -26,7 +25,7 @@
       <div class="signup-content">
         <div class="signup-form">
           <h2 class="form-title">Sign up</h2>
-          <form method="POST" class="register-form" id="register-form" action = "UserServlet">
+          <form method="POST" class="register-form" id="register-form">
             <div class="form-group">
               <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
               <input type="text" name="name" id="name" placeholder="Your Name"/>

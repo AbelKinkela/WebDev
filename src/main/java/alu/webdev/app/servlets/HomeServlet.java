@@ -62,11 +62,10 @@ public class HomeServlet extends HttpServlet {
     }
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // store data in User object and save User object in database
 
-       // dashboard.createProject("Work on AADP Project", 2, 3,10);
-        // set User object in request object and set URL
+
         Dashboard dashboard = new Dashboard();
+
         try {
             // Initialize the database
             Connection conn = DatabaseConnection.initializeDatabase();
@@ -80,23 +79,17 @@ public class HomeServlet extends HttpServlet {
                 Date start_date = rs.getDate("START_DATE");
                 Date end_date = rs.getDate("END_DATE");
                 int completionPercentage = rs.getInt("COMPLETION_PERCENT");
-                //String milestones_string = rs.getString("MILESTONES");
 
-                //createMileStones(milestones_string);
                 dashboard.createProject(projectID, projectName, start_date.toLocalDate(), end_date.toLocalDate(), completionPercentage);
             }
-
-
             conn.close();
         }
         catch (Exception e) {
             e.printStackTrace();
         }
 
-
-       request.setAttribute("projects", dashboard.getProjects());
+        request.setAttribute("projects", dashboard.getProjects());
         getServletContext().getRequestDispatcher("/Dashboard.jsp").forward(request, response);
-
     }
 
 

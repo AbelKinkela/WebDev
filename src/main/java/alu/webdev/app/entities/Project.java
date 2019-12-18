@@ -148,7 +148,12 @@ public class Project {
         LocalDate today = LocalDate.now();
         Period project_duration = Period.between(startDate, today);
         int days = project_duration.getDays();
-        return days;
+
+        if(days < 0){
+            return 0;
+        }
+
+            return ++days;
     }
     @Override
     public String toString() {
