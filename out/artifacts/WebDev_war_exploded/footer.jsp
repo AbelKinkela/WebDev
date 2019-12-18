@@ -19,7 +19,7 @@
         </div>
         <div class="col-6 col-md">
             <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="${pageContext.request.contextPath}/help">Help">Help</a></li>
+                <li><a class="text-muted" href="${pageContext.request.contextPath}/help">Help</a></li>
             </ul>
         </div>
     </div>

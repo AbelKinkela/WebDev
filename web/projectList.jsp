@@ -27,16 +27,7 @@
 
 
 <body>
-<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-blue border-bottom shadow-sm">
-    <img class="my-0 mr-md-auto" src="views/images/logo.png" height="45">
-    <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="<%=request.getContextPath()%>/list">Dashboard</a>
-        <a class="p-2 text-dark" href="#">Team</a>
-        <a class="p-2 text-dark" href="#">About</a>
-        <a class="p-2 text-dark" href="#">Help</a>
-    </nav>
-    <a class="btn btn-outline-primary" href="#">Sign up</a>
-</div>
+<%@include file="/header.jsp" %>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
     <h1 class="display-4"><c:out value="${project.projectName}"/></h1>
