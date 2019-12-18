@@ -3,7 +3,6 @@
     <img class="my-0 mr-md-auto" src="/views/images/logo.png" height="45" alt="HotTracker">
     <nav class="my-2 my-md-0 mr-md-3 topNavMenu">
         <a href="${pageContext.request.contextPath}/">Dashboard</a>
-        <a href="${pageContext.request.contextPath}/team">Team</a>
         <a href="${pageContext.request.contextPath}/about">About</a>
         <a href="${pageContext.request.contextPath}/help">Help</a>
     </nav>
