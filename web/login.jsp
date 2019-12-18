@@ -1,5 +1,3 @@
-
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!DOCTYPE html>
@@ -15,6 +13,13 @@
 
   <!-- Main css -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/pricing/">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Favicons -->
+  <meta name="theme-color" content="#563d7c">
 </head>
 <body>
 
@@ -58,5 +63,6 @@
 <!-- JS -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="js/main.js"></script>
+<jsp:include page="footer.jsp"/>
 </body>
 </html>

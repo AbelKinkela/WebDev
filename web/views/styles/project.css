@@ -1,0 +1,23 @@
+td.red {
+    color: red;
+}
+
+td.green {
+    color: #27ae60;
+}
+
+.mine,
+.mine:hover,
+.mine:active,
+.mine:visited,
+.mine:focus,
+.mine:active:focus {
+    background-color: #3498db;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+
+
+
+
