@@ -13,17 +13,14 @@
     <meta name="generator" content="Jekyll v3.8.6">
     <title>Project</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/pricing/">
-
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Favicons -->
     <meta name="theme-color" content="#563d7c">
 
-
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="/views/styles/styles.css">
+    <link rel="stylesheet" href="/views/styles/dashboard.css">
     <link href="pricing.css" rel="stylesheet">
     <link href="/views/styles/project.css" rel="stylesheet">
 </head>
@@ -47,11 +44,6 @@
                 ${project.description}
             </p>
         </div>
-
-
-
-
-
 
         <div class="col-sm-6">
 

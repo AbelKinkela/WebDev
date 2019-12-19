@@ -11,11 +11,10 @@ public class DatabaseConnection {
     {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
-        String dbURL = "jdbc:mysql://localhost:3306/HotTracker";
+        String dbURL = "jdbc:mysql://localhost:3306/ABC";
         String dbUsername = "root";
-        String dbPassword = null;
+        String dbPassword = "2011butterfly";
         Connection con = DriverManager.getConnection(dbURL, dbUsername, dbPassword);
         return  con;
-
     }
 }

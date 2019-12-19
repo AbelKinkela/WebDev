@@ -15,7 +15,7 @@
 
     <servlet>
         <servlet-name>SignUp</servlet-name>
-        <servlet-class>alu.webdev.app.servlets.UserServlet</servlet-class>
+        <servlet-class>alu.webdev.app.servlets.SignUpServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SignUp</servlet-name>
@@ -40,16 +40,6 @@
         <servlet-name>Project</servlet-name>
         <url-pattern>/project/*</url-pattern>
     </servlet-mapping>
-    <!-- Team servlet -->
-    <servlet>
-        <servlet-name>team</servlet-name>
-        <servlet-class>alu.webdev.app.servlets.TeamServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>team</servlet-name>
-        <url-pattern>/team</url-pattern>
-    </servlet-mapping>
 
     <servlet>
         <servlet-name>dashboard</servlet-name>
@@ -59,7 +49,6 @@
         <servlet-name>dashboard</servlet-name>
         <url-pattern>/dashboard</url-pattern>
     </servlet-mapping>
-
 
 
     <!-- About servlet -->

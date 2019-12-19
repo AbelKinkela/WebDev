@@ -141,6 +141,7 @@ public class Project {
     public int getProjectTotalDays(){
         Period project_total_duration = Period.between(startDate, endDate);
         int totalDuration = project_total_duration.getDays();
+        System.out.println(totalDuration);
         return totalDuration;
     }
 

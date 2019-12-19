@@ -28,17 +28,16 @@
           <form method="POST" class="register-form" id="register-form">
             <div class="form-group">
               <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-              <input type="text" name="name" id="name" placeholder="Your Name"/>
+              <input type="text" name="your_name" id="name" placeholder="Your Name" required/>
             </div>
             <div class="form-group">
               <label for="email"><i class="zmdi zmdi-email"></i></label>
-              <input type="email" name="email" id="email" placeholder="Your Email"/>
+              <input type="email" name="your_email" id="email" placeholder="Your Email" required/>
             </div>
             <div class="form-group">
               <label for="pass"><i class="zmdi zmdi-lock"></i></label>
-              <input type="password" name="password" id="pass" placeholder="Password"/>
+              <input type="password" name="your_pass" id="pass" placeholder="Password" required/>
             </div>
-
 
             <div class="form-group form-button">
               <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>

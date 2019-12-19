@@ -20,6 +20,7 @@ create table USER
 (
 	ID int auto_increment,
 	NAME varchar(50) not null,
+    EMAIL varchar(50) not null,
 	PASSWORD varchar(100) not null,
 	constraint USER_pk
 		primary key (ID)

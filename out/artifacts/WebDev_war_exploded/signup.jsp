@@ -1,4 +1,5 @@
-<%@ page contentType="text/html;charset=UTF-8" %>
+
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +13,7 @@
   <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
   <!-- Main css -->
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -24,20 +25,19 @@
       <div class="signup-content">
         <div class="signup-form">
           <h2 class="form-title">Sign up</h2>
-          <form method="POST" class="register-form" id="register-form" action = "UserServlet">
+          <form method="POST" class="register-form" id="register-form">
             <div class="form-group">
               <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-              <input type="text" name="name" id="name" placeholder="Your Name"/>
+              <input type="text" name="your_name" id="name" placeholder="Your Name" required/>
             </div>
             <div class="form-group">
               <label for="email"><i class="zmdi zmdi-email"></i></label>
-              <input type="email" name="email" id="email" placeholder="Your Email"/>
+              <input type="email" name="your_email" id="email" placeholder="Your Email" required/>
             </div>
             <div class="form-group">
               <label for="pass"><i class="zmdi zmdi-lock"></i></label>
-              <input type="password" name="password" id="pass" placeholder="Password"/>
+              <input type="password" name="your_pass" id="pass" placeholder="Password" required/>
             </div>
-
 
             <div class="form-group form-button">
               <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
@@ -56,6 +56,5 @@
 <!-- JS -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="js/main.js"></script>
-<jsp:include page="footer.jsp"/>
 </body>
 </html>

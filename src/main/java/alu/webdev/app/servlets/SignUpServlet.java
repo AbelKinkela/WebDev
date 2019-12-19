@@ -8,24 +8,21 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-public class UserServlet extends HttpServlet {
+public class SignUpServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String name = request.getParameter("name");
-        String password = request.getParameter("password");
-        String email = request.getParameter("email");
+        // TODO Auto-generated method stub
+        String name = request.getParameter("your_name");
+        String password = request.getParameter("your_pass");
+        //String email = request.getParameter("email");
 
-        if(name.isEmpty() || password.isEmpty() || email.isEmpty())
-
-        {
-            RequestDispatcher req = request.getRequestDispatcher("login.jsp");
+        if (name.isEmpty() || password.isEmpty()) {
+            RequestDispatcher req = request.getRequestDispatcher("/signup.jsp");
             req.include(request, response);
-        }
-        else
-        {
-            RequestDispatcher req = request.getRequestDispatcher("dashboard.jsp");
+        } else {
+            RequestDispatcher req = request.getRequestDispatcher("/dashboard.jsp");
             req.forward(request, response);
         }
     }
@@ -35,6 +32,4 @@ public class UserServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         getServletContext().getRequestDispatcher("/signup.jsp").forward(request, response);
     }
-
-
 }
